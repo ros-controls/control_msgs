@@ -1,0 +1,24 @@
+<package>
+  <description brief="control_msgs">
+
+    control_msgs contains base messages and actions useful for
+    controlling robots.  It provides representations for controller
+    setpoints and joint and cartesian trajectories.
+
+  </description>
+  <author>Stuart Glaser</author>
+  <license>BSD</license>
+  <review status="unreviewed" notes=""/>
+  <url>http://ros.org/wiki/control_msgs</url>
+
+  <depend package="actionlib_msgs" />
+  <depend package="geometry_msgs" />
+  <depend package="trajectory_msgs" />
+
+  <export>
+    <cpp cflags="-I${prefix}/include -I${prefix}/msg/cpp -I${prefix}/srv/cpp" />
+  </export>
+
+</package>
+
+
