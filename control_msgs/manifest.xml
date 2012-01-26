@@ -15,6 +15,13 @@
   <depend package="geometry_msgs" />
   <depend package="trajectory_msgs" />
 
+  <!-- This package doesn't actually depend on rospy.  The dependency is
+       here to cause roscreate-stack to add a stack-level dependency on
+       ros_comm, which is needed for the cmake logic to do message
+       generation.  Eventually, this message-only stack should just be
+       converted to catkin. -->
+  <depend package="rospy"/>
+
   <export>
     <cpp cflags="-I${prefix}/include -I${prefix}/msg/cpp -I${prefix}/srv/cpp" />
   </export>
