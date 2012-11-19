@@ -1,0 +1,23 @@
+<package>
+  <name>control</name>
+  <version>1.1.0</version>
+  <description>
+    This package is essentially an alias for control_msgs, for backward compatibility. Do not depend on this package.
+  </description>
+  <author email="sglaser@willowgarage.com">Stuart Glaser</author>
+  <maintainer email="control_msgs@willowgarage.com">Willow Garage</maintainer>
+
+  <license>BSD</license>
+
+  <url>http://ros.org/wiki/control_msgs</url>
+
+  <build_depend>catkin</build_depend>
+  <build_depend>control_msgs</build_depend>
+
+  <run_depend>control_msgs</run_depend>
+
+  <export>
+    <metapackage/>
+  </export>
+
+</package>
