@@ -1,12 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
 project(control_msgs)
 
-find_package(catkin REQUIRED
-  message_generation
-  std_msgs
-  geometry_msgs
-  actionlib_msgs
-  trajectory_msgs)
+find_package(catkin REQUIRED actionlib_msgs geometry_msgs message_generation std_msgs trajectory_msgs)
 
 add_action_files(DIRECTORY action FILES
   FollowJointTrajectory.action
@@ -15,6 +10,6 @@ add_action_files(DIRECTORY action FILES
 add_message_files(DIRECTORY msg FILES
   JointTolerance.msg)
 
-generate_messages(DEPENDENCIES std_msgs geometry_msgs trajectory_msgs actionlib_msgs)
+generate_messages(DEPENDENCIES actionlib_msgs geometry_msgs std_msgs trajectory_msgs)
 
-catkin_package(CATKIN_DEPENDS message_runtime)
+catkin_package(CATKIN_DEPENDS actionlib_msgs geometry_msgs message_generation std_msgs trajectory_msgs)
