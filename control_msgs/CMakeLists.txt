@@ -10,6 +10,8 @@ add_action_files(DIRECTORY action FILES
 
 add_message_files(DIRECTORY msg FILES
   JointTolerance.msg
+  JointTolerance.msg
+  JointTrajectoryControllerState.msg
   GripperCommand.msg)
 
 generate_messages(DEPENDENCIES actionlib_msgs geometry_msgs std_msgs trajectory_msgs)
