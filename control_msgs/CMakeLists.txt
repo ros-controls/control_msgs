@@ -7,7 +7,7 @@ add_action_files(DIRECTORY action FILES
   FollowJointTrajectory.action
   GripperCommand.action
   JointTrajectory.action
-  PointHeadAction.action
+  PointHead.action
   SingleJointPosition.action)
 
 add_message_files(DIRECTORY msg FILES
