@@ -5,14 +5,20 @@ find_package(catkin REQUIRED actionlib_msgs geometry_msgs message_generation std
 
 add_action_files(DIRECTORY action FILES
   FollowJointTrajectory.action
+  GripperCommand.action
+  JointTrajectory.action
   PointHeadAction.action
-  GripperCommand.action)
+  SingleJointPosition.action)
 
 add_message_files(DIRECTORY msg FILES
+  GripperCommand.msg
+  JointControllerState.msg
   JointTolerance.msg
-  JointTolerance.msg
-  JointTrajectoryControllerState.msg
-  GripperCommand.msg)
+  JointTrajectoryControllerState.msg)
+
+add_service_files(DIRECTORY srv FILES
+  QueryCalibrationState.srv
+  QueryTrajectoryState.srv)
 
 generate_messages(DEPENDENCIES actionlib_msgs geometry_msgs std_msgs trajectory_msgs)
 
