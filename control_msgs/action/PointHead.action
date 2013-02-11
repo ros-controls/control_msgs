@@ -5,3 +5,4 @@ duration min_duration
 float64 max_velocity
 ---
 ---
+float64 pointing_angle_error
