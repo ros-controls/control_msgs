@@ -27,7 +27,7 @@ duration goal_time_tolerance
 
 ---
 int32 error_code
-int32 SUCCESSFUL = 0
+int32 SUCCESSFUL = 1
 int32 INVALID_GOAL = -1
 int32 INVALID_JOINTS = -2
 int32 OLD_HEADER_TIMESTAMP = -3
