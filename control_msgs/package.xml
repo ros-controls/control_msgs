@@ -7,7 +7,7 @@
     setpoints and joint and cartesian trajectories.
   </description>
   <author email="sglaser@willowgarage.com">Stuart Glaser</author>
-  <maintainer email="control_msgs@willowgarage.com">Willow Garage</maintainer>
+  <maintainer email="adolfo.rodriguez@pal-robotics.com">Adolfo Rodriguez Tsouroukdissian</maintainer>
 
   <license>BSD</license>
 
