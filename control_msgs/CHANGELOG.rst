@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Export architecture_independent flag in package.xml
+* Change package maintainer.
+* Contributors: Adolfo Rodriguez Tsouroukdissian, Scott K Logan
+
 1.3.0 (2014-02-27)
 ------------------
 * Add error_string to action result.
