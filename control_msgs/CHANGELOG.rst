@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.3.1 (2015-03-05)
+------------------
 * Export architecture_independent flag in package.xml
 * Change package maintainer.
 * Contributors: Adolfo Rodriguez Tsouroukdissian, Scott K Logan
