@@ -7,6 +7,7 @@ add_action_files(DIRECTORY action FILES
   FollowJointTrajectory.action
   GripperCommand.action
   JointTrajectory.action
+  MultiDOFFollowJointTrajectory.action
   PointHead.action
   SingleJointPosition.action)
 
@@ -15,10 +16,12 @@ add_message_files(DIRECTORY msg FILES
   JointControllerState.msg
   JointTolerance.msg
   JointTrajectoryControllerState.msg
+  MultiDOFJointTrajectoryControllerState.msg
   PidState.msg)
 
 add_service_files(DIRECTORY srv FILES
   QueryCalibrationState.srv
+  QueryMultiDOFTrajectoryState.srv
   QueryTrajectoryState.srv)
 
 generate_messages(DEPENDENCIES actionlib_msgs geometry_msgs std_msgs trajectory_msgs)

@@ -1,0 +1,5 @@
+Header header
+string[] joint_names
+trajectory_msgs/MultiDOFJointTrajectoryPoint desired
+trajectory_msgs/MultiDOFJointTrajectoryPoint actual
+trajectory_msgs/MultiDOFJointTrajectoryPoint error  # Redundant, but useful
