@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add antiwindup to JointControllerState message definition
+* Add PidState message
+* Contributors: Paul Bovbel
+
 1.3.1 (2015-03-05)
 ------------------
 * Export architecture_independent flag in package.xml
