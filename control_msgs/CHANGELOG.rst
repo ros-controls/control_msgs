@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.4.0 (2016-04-15)
+------------------
 * Add antiwindup to JointControllerState message definition
 * Add PidState message
 * Contributors: Paul Bovbel
