@@ -18,6 +18,7 @@ add_message_files(DIRECTORY msg FILES
   PidState.msg)
 
 add_service_files(DIRECTORY srv FILES
+  Calibrate.srv
   QueryCalibrationState.srv
   QueryTrajectoryState.srv)
 
