@@ -1,0 +1,17 @@
+# This service can be used to calibrate joints
+#
+# The request consists of the calibrated state of each joint (revolute or prismatic) is defined by:
+#  * the position of the joint (rad or m),
+#  * the velocity of the joint (rad/s or m/s) and 
+#  * the effort that is applied in the joint (Nm or N).
+#
+# Each joint is uniquely identified by its name
+#
+# If the position, velocity or effort vector is not empty, it will be taken into account and should 
+# be of the same length as the name vector.
+
+string[] name
+float64[] position
+float64[] velocity
+float64[] effort
+---
