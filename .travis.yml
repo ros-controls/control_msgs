@@ -1,28 +1,10 @@
-# Travis Continuous Integration Configuration File For ROS Control Projects
-sudo: required
-dist: trusty
-language: generic
+services:
+  - docker
 
-notifications:
-  email:
-    recipients:
-      - enrique.fernandez.perdomo@gmail.com
-      - bence.magyar.robotics@gmail.com
-      - gennaro.raiola@gmail.com
-    on_success: change #[always|never|change] # default: change
-    on_failure: change #[always|never|change] # default: always
-
-env:
-  global:
-    - UPSTREAM_WORKSPACE=https://raw.github.com/ros-controls/ros_control/kinetic-devel/ros_control.rosinstall
-    - ROS_PARALLEL_TEST_JOBS=-j1
-  matrix:
-    - ROS_DISTRO=kinetic ROS_REPO=ros
-    - ROS_DISTRO=kinetic ROS_REPO=ros-shadow-fixed
-    - ROS_DISTRO=lunar   ROS_REPO=ros
-    - ROS_DISTRO=lunar   ROS_REPO=ros-shadow-fixed
-  
-install:
-  - git clone https://github.com/ros-industrial/industrial_ci.git .ci_config
 script:
-- .ci_config/travis.sh
+- docker run --name build-container -dit osrf/ros2:bouncy-ros-base /bin/bash
+- docker exec build-container /bin/bash -c 'mkdir -p /ros2_ws/src'
+- docker exec build-container /bin/bash -c 'apt update && apt install -y python3-colcon-common-extensions python-rosdep && rosdep init && rosdep update'
+- docker cp $TRAVIS_BUILD_DIR build-container:/ros2_ws/src/
+- docker exec build-container /bin/bash -c 'source /opt/ros/bouncy/setup.bash && cd /ros2_ws/ && rosdep install --from-paths src --ignore-src --rosdistro bouncy -r -y'
+- docker exec build-container /bin/bash -c 'source /opt/ros/bouncy/setup.bash && cd /ros2_ws/ && colcon build --symlink-install'
