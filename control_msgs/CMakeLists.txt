@@ -13,6 +13,7 @@ add_action_files(DIRECTORY action FILES
 add_message_files(DIRECTORY msg FILES
   GripperCommand.msg
   JointControllerState.msg
+  JointJog.msg
   JointTolerance.msg
   JointTrajectoryControllerState.msg
   PidState.msg)
