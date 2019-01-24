@@ -47,10 +47,11 @@ if(BUILD_TESTING)
   ament_lint_auto_find_test_dependencies()
 endif()
 
-if(DEFINED PYTHON_INSTALL_DIR)
-  install(DIRECTORY src/test_msgs
-    DESTINATION "${PYTHON_INSTALL_DIR}/")
-endif()
-
+rosidl_generate_interfaces(${PROJECT_NAME}
+  ${msg_files}
+  ${srv_files}
+  DEPENDENCIES builtin_interfaces geometry_msgs std_msgs trajectory_msgs
+  ADD_LINTER_TESTS
+)
 ament_export_dependencies(rosidl_default_runtime)
 ament_package()

@@ -23,7 +23,7 @@ JointTolerance[] path_tolerance
 # time" + goal_time_tolerance, the goal aborts with error_code set to
 # GOAL_TOLERANCE_VIOLATED
 JointTolerance[] goal_tolerance
-duration goal_time_tolerance
+builtin_interfaces/Duration goal_time_tolerance
 
 ---
 int32 error_code
@@ -45,7 +45,7 @@ int32 GOAL_TOLERANCE_VIOLATED = -5
 string error_string
 
 ---
-Header header
+std_msgs/Header header
 string[] joint_names
 trajectory_msgs/JointTrajectoryPoint desired
 trajectory_msgs/JointTrajectoryPoint actual
