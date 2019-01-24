@@ -1,9 +1,9 @@
 float64 position
-duration min_duration
+builtin_interfaces/Duration min_duration
 float64 max_velocity
 ---
 ---
-Header header
+std_msgs/Header header
 float64 position
 float64 velocity
 float64 error
