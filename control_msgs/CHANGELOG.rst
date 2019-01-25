@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.0 (2019-01-25)
+------------------
 * ROS2 Bouncy conversion
 * Replace Adolfo with Bence as maintainer
 * Contributors: Austin Deric, Bence Magyar, Nestor Gonzalez
