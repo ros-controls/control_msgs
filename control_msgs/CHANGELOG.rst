@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* ROS2 Bouncy conversion
+* Replace Adolfo with Bence as maintainer
+* Contributors: Austin Deric, Bence Magyar, Nestor Gonzalez
+
 1.4.0 (2016-04-15)
 ------------------
 * Add antiwindup to JointControllerState message definition
