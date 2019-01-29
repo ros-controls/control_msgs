@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.1.0 (2019-01-29)
+------------------
 * Fix up dependencies for actionlib and Crystal
 * Contributors: Bence Magyar
 
