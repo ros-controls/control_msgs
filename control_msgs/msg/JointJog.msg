@@ -11,5 +11,8 @@ string[] joint_names
 # If velocities, units are rad/s or m/s.
 float64[] deltas
 
-# Time information may be required
+# Time information may be required.
+# If populated, should be > 0.
+# For position deltas, may indicate the time to reach new position.
+# For velocity deltas, may indicate how long the command is valid.
 float64 time_delta
