@@ -5,15 +5,15 @@ Header header
 # robot. Joint names are case-sensitive.
 string[] joint_names
  
-# Relative displacement of the joints listed in joint_names.
+# Command to the joints listed in joint_names.
 # The order must be identical.
 # If joint positions, units are rad for revolute joints, meters for linear joints.
 # If joint velocities, units are rad/s or m/s.
 # If joint accelerations, units are rad/s^2 or m/s^2.
-float64[] deltas
+float64[] command
 
-# Time information may be required.
-# If populated, should be > 0.
-# For position deltas, indicates the time to reach new position.
-# For velocity/acceleration deltas, indicates how long the command is valid.
-float64 time_delta
+float64 duration
+
+float64 max_velocity_scaling_factor
+
+float64 max_acceleration_scaling_factor
