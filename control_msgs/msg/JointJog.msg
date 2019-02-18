@@ -9,7 +9,6 @@ string[] joint_names
 # The order must be identical.
 # If joint positions, units are rad for revolute joints, meters for linear joints.
 # If joint velocities, units are rad/s or m/s.
-# If joint accelerations, units are rad/s^2 or m/s^2.
 float64[] command
 
 float64 duration
