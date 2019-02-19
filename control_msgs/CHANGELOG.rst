@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.5.0 (2019-02-19)
+------------------
 * Adding a JointJog msg
 * Replace Adolfo with Bence as maintainer
 * Contributors: AndyZe, Bence Magyar
