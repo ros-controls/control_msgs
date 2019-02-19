@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Adding a JointJog msg
+* Replace Adolfo with Bence as maintainer
+* Contributors: AndyZe, Bence Magyar
+
 1.4.0 (2016-04-15)
 ------------------
 * Add antiwindup to JointControllerState message definition
