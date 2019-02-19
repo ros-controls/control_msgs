@@ -28,6 +28,7 @@ set(msg_files
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
   msg/JointControllerState.msg
+  msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
   msg/PidState.msg
