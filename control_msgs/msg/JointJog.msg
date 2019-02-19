@@ -1,18 +1,20 @@
 # Used in time-stamping the message.
 Header header
- 
+
 # Name list of the joints. You don't need to specify all joints of the
 # robot. Joint names are case-sensitive.
 string[] joint_names
- 
-# Command to the joints listed in joint_names.
+
+# A position command to the joints listed in joint_names.
 # The order must be identical.
-# If joint positions, units are rad for revolute joints, meters for linear joints.
-# If joint velocities, units are rad/s or m/s.
-float64[] command
+# Units are meters or radians.
+# If positions and velocities are filled, a profiled motion is requested.
+float64[] displacements # or position_deltas
+
+# A velocity command to the joints listed in joint_names.
+# The order must be identical.
+# Units are m/s or rad/s.
+# If positions and velocities are filled, a profiled motion is requested.
+float64[] velocities
 
 float64 duration
-
-float64 max_velocity_scaling_factor
-
-float64 max_acceleration_scaling_factor
