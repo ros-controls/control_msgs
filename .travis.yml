@@ -4,7 +4,7 @@ services:
 script:
 - docker run --name build-container -dit ros:crystal /bin/bash
 - docker exec build-container /bin/bash -c 'mkdir -p /ros2_ws/src'
-- docker exec build-container /bin/bash -c 'apt update && apt install -y python3-colcon-common-extensions rosdep update'
+- docker exec build-container /bin/bash -c 'apt update && apt install -y python3-colcon-common-extensions && rosdep update'
 - docker cp $TRAVIS_BUILD_DIR build-container:/ros2_ws/src/
 - docker exec build-container /bin/bash -c 'source /opt/ros/crystal/setup.bash && cd /ros2_ws/ && rosdep install --from-paths src --ignore-src --rosdistro crystal -y'
 - docker exec build-container /bin/bash -c 'source /opt/ros/crystal/setup.bash && cd /ros2_ws/ && colcon build'
