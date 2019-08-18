@@ -26,7 +26,7 @@ env:
     - ROS_DISTRO=melodic ROS_REPO=ros BUILDER=colcon
 
 install:
-  - git clone --quiet --depth 1 https://github.com/ros-industrial/industrial_ci.git .industrial_ci
+  - git clone --quiet --depth 1 https://github.com/ros-industrial/industrial_ci.git .industrial_ci -b master
 
 script:
 - .industrial_ci/travis.sh
