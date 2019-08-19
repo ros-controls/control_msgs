@@ -6,6 +6,7 @@ env:
   matrix:
     - ROS_DISTRO="crystal"
     - ROS_DISTRO="dashing"
+    - ROS_DISTRO="dashing" ADDITIONAL_DEBS=ros-dashing-rosidl-typesupport-opensplice-cpp
 
 install:
   -  git clone --quiet --depth 1 https://github.com/ros-industrial/industrial_ci.git .industrial_ci -b master
