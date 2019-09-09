@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.2.0 (2019-09-09)
+------------------
 * generate action interfaces
 * Contributors: Mathias Lüdtke
 
