@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* add description of JointControllerState.msg (`#30 <https://github.com/ros-controls/control_msgs/issues/30>`_)
+* Contributors: Shuang Li
+
 1.5.0 (2019-02-19)
 ------------------
 * Adding a JointJog msg
