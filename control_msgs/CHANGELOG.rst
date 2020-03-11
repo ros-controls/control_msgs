@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Bump CMake version to avoid CMP0048 (`#40 <https://github.com/ros-controls/control_msgs/issues/40>`_)
+* Contributors: Shane Loretz
+
 1.5.1 (2019-11-27)
 ------------------
 * add description of JointControllerState.msg (`#30 <https://github.com/ros-controls/control_msgs/issues/30>`_)
