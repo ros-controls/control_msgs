@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+1.5.2 (2020-03-11)
+------------------
 * Bump CMake version to avoid CMP0048 (`#40 <https://github.com/ros-controls/control_msgs/issues/40>`_)
 * Contributors: Shane Loretz
 
