@@ -24,7 +24,9 @@ find_package(std_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
+  "msg/DynamicJointState.msg"
   "msg/GripperCommand.msg"
+  "msg/InterfaceValue.msg"
   "msg/JointControllerState.msg"
   "msg/JointTolerance.msg"
   "msg/JointTrajectoryControllerState.msg"
