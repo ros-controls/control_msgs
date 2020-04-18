@@ -24,26 +24,26 @@ find_package(std_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
-  "msg/DynamicJointState.msg"
-  "msg/GripperCommand.msg"
-  "msg/InterfaceValue.msg"
-  "msg/JointControllerState.msg"
-  "msg/JointTolerance.msg"
-  "msg/JointTrajectoryControllerState.msg"
-  "msg/PidState.msg"
+  msg/DynamicJointState.msg
+  msg/GripperCommand.msg
+  msg/InterfaceValue.msg
+  msg/JointControllerState.msg
+  msg/JointTolerance.msg
+  msg/JointTrajectoryControllerState.msg
+  msg/PidState.msg
 )
 
 set(action_files
-  "action/FollowJointTrajectory.action"
-  "action/GripperCommand.action"
-  "action/JointTrajectory.action"
-  "action/PointHead.action"
-  "action/SingleJointPosition.action"
+  action/FollowJointTrajectory.action
+  action/GripperCommand.action
+  action/JointTrajectory.action
+  action/PointHead.action
+  action/SingleJointPosition.action
 )
 
 set(srv_files
-  "srv/QueryCalibrationState.srv"
-  "srv/QueryTrajectoryState.srv"
+  srv/QueryCalibrationState.srv
+  srv/QueryTrajectoryState.srv
 )
 
 if(BUILD_TESTING)
