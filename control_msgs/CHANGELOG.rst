@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.3.0 (2020-05-16)
+------------------
 * Implement "flexible joint states" message: add DynamicJointState message
 * add description of JointControllerState.msg (`#30 <https://github.com/ros-controls/control_msgs/issues/30>`_) (`#39 <https://github.com/ros-controls/control_msgs/issues/39>`_)
 * Contributors: Bence Magyar
