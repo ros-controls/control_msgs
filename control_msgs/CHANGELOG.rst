@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Implement "flexible joint states" message: add DynamicJointState message
+* add description of JointControllerState.msg (`#30 <https://github.com/ros-controls/control_msgs/issues/30>`_) (`#39 <https://github.com/ros-controls/control_msgs/issues/39>`_)
+* Contributors: Bence Magyar
+
 2.2.0 (2019-09-09)
 ------------------
 * generate action interfaces
