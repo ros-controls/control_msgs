@@ -1,5 +1,5 @@
 # Used in time-stamping the message.
-Header header
+std_msgs/Header header
 
 # Name list of the joints. You don't need to specify all joints of the
 # robot. Joint names are case-sensitive.
