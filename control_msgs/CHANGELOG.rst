@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add std_msgs prefix path to header
+* Add JointJog msg to ROS 2 - foxy
+* Contributors: AdamPettinger, AndyZe
+
 2.3.0 (2020-05-16)
 ------------------
 * Implement "flexible joint states" message: add DynamicJointState message
