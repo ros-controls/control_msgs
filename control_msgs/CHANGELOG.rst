@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.0 (2020-07-03)
+------------------
 * Add std_msgs prefix path to header
 * Add JointJog msg to ROS 2 - foxy
 * Contributors: AdamPettinger, AndyZe
