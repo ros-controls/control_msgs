@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.4.1 (2020-08-01)
+------------------
 * Move author field lower in package.xml
 * Don't define C standard
 * Define package.xml schema for validator
