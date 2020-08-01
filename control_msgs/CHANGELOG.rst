@@ -2,6 +2,14 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Move author field lower in package.xml
+* Don't define C standard
+* Define package.xml schema for validator
+* depend -> build_depend, exec_depend
+* Contributors: Bence Magyar, ahcorde
+
 2.4.0 (2020-07-03)
 ------------------
 * Add std_msgs prefix path to header
