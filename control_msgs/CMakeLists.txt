@@ -1,6 +1,7 @@
 cmake_minimum_required(VERSION 3.5)
 project(control_msgs)
 
+# Default to C++14
 if(NOT CMAKE_CXX_STANDARD)
   set(CMAKE_CXX_STANDARD 14)
 endif()
@@ -22,6 +23,7 @@ set(msg_files
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
   msg/JointControllerState.msg
+  msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
   msg/PidState.msg
