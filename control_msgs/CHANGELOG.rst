@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.5.0 (2021-01-22)
+------------------
 * Extend QueryTrajectoryState to allow to report errors
 * Contributors: Victor Lopez
 
