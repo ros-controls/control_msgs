@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Extend QueryTrajectoryState to allow to report errors
+* Contributors: Victor Lopez
+
 2.4.1 (2020-08-01)
 ------------------
 * Move author field lower in package.xml
