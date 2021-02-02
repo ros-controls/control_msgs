@@ -27,7 +27,6 @@ jobs:
           - {ROS_DISTRO: noetic, ROS_REPO: main}
           - {ROS_DISTRO: noetic, ROS_REPO: testing}
     steps:
-      - run: sudo apt-get update -qq && sudo apt-get upgrade
       - uses: actions/checkout@v1
       - uses: ros-industrial/industrial_ci@master
         env: ${{matrix.env}}
