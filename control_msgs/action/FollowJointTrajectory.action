@@ -1,5 +1,6 @@
 # The joint trajectory to follow
 trajectory_msgs/JointTrajectory trajectory
+trajectory_msgs/MultiDOFJointTrajectory multi_dof_trajectory
 
 # Tolerances for the trajectory.  If the measured joint values fall
 # outside the tolerances the trajectory goal is aborted.  Any
