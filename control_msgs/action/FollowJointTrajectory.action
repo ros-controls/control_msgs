@@ -12,6 +12,7 @@ trajectory_msgs/MultiDOFJointTrajectory multi_dof_trajectory
 # violated, the goal aborts with error_code set to
 # PATH_TOLERANCE_VIOLATED.
 JointTolerance[] path_tolerance
+MultiDOFJointTolerance[] multi_dof_path_tolerance
 
 # To report success, the joints must be within goal_tolerance of the
 # final trajectory value.  The goal must be achieved by time the
@@ -24,6 +25,7 @@ JointTolerance[] path_tolerance
 # time" + goal_time_tolerance, the goal aborts with error_code set to
 # GOAL_TOLERANCE_VIOLATED
 JointTolerance[] goal_tolerance
+MultiDOFJointTolerance[] multi_dof_goal_tolerance
 builtin_interfaces/Duration goal_time_tolerance
 
 ---
@@ -51,3 +53,7 @@ string[] joint_names
 trajectory_msgs/JointTrajectoryPoint desired
 trajectory_msgs/JointTrajectoryPoint actual
 trajectory_msgs/JointTrajectoryPoint error
+
+string[] multi_dof_joint_names
+trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_desired
+trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_actual
