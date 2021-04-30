@@ -26,6 +26,7 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
+  msg/MultiDOFJointTolerance.msg
   msg/PidState.msg
 )
 
