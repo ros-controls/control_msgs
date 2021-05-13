@@ -11,7 +11,7 @@
 # For these components, the units are meters, meters/sec and meters/sec^2.
 # Z_AXIS is only valid with a floating joint, not planar.
 
-# If the component is ANGULAR the tolerance is measured in
+# If the component is ROTATION the tolerance is measured in
 # radians, radians/sec and radians/sec^2, computed
 # between the difference in quaternions.
 
