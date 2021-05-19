@@ -22,11 +22,11 @@ set(msg_files
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
+  msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
-  msg/MultiDOFJointTolerance.msg
   msg/PidState.msg
 )
 
