@@ -1,4 +1,7 @@
-# The tolerances for a multi-dof joint
+# Version of JointTolerance.msg with added component field for joints with multiple degrees of freedom
+# The difference between two MultiDOFJointTrajectoryPoint cannot be represented as a single number,
+# hence we use the component field to represent how to calculate the difference in a way that can
+# be represented as a single number.
 
 # Since each joint has multiple degrees of freedom,
 # there can be multiple tolerances for each joint, each looking
