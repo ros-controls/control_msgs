@@ -1,2 +1,2 @@
 Header header
-JointControllerState[] controllestate
+JointControllerState[] controller_state
