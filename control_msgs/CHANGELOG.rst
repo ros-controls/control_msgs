@@ -2,6 +2,13 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Extend FollowJointTrajectoryAction with multi_dof_trajectory variable
+  https://github.com/ros-controls/control_msgs/pull/55
+* Refractor dependency list for better overview.
+* Contributors: Bence Magyar, David V. Lu, Denis Štogl, JafarAbdi
+
 2.5.0 (2021-01-22)
 ------------------
 * Extend QueryTrajectoryState to allow to report errors
