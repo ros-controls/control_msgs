@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.5.1 (2021-05-27)
+------------------
 * Refractor dependency list for better overview.
 * Contributors: Bence Magyar, Denis Štogl
 
