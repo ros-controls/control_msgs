@@ -10,8 +10,9 @@ geometry_msgs/WrenchStamped measured_wrench_filtered  # measured wrench after lo
 geometry_msgs/WrenchStamped measured_wrench_control_frame  # transformed measured wrench to control frame
 geometry_msgs/WrenchStamped measured_wrench_endeffector_frame  # measured wrench transformed to endeffector
 
-geometry_msgs/PoseStamped desired_pose                    # goal pose to send to the robot
-geometry_msgs/TransformStamped relative_desired_pose    # relative pose from the actual pose as result of the admittance rule
+geometry_msgs/PoseStamped current_pose                # Current pose from FK
+geometry_msgs/PoseStamped desired_pose                # goal pose to send to the robot
+geometry_msgs/TransformStamped relative_desired_pose  # relative pose from the actual pose as result of the admittance rule
 
 string[] joint_names
 trajectory_msgs/JointTrajectoryPoint desired_joint_states  # result of IK from goal_pose_command
