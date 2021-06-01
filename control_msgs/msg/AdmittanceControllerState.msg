@@ -10,6 +10,8 @@ geometry_msgs/WrenchStamped measured_wrench_filtered  # measured wrench after lo
 geometry_msgs/WrenchStamped measured_wrench_control_frame  # transformed measured wrench to control frame
 geometry_msgs/WrenchStamped measured_wrench_endeffector_frame  # measured wrench transformed to endeffector
 
+trajectory_msgs/JointTrajectoryPoint admittance_rule_calculated_values  # Values calculated by admittance rule (Cartesian space: [x, y, z, rx, ry, rz]) - position = pose_error; effort = measured_wrench
+
 geometry_msgs/PoseStamped current_pose                # Current pose from FK
 geometry_msgs/PoseStamped desired_pose                # goal pose to send to the robot
 geometry_msgs/TransformStamped relative_desired_pose  # relative pose from the actual pose as result of the admittance rule
