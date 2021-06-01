@@ -15,6 +15,6 @@ geometry_msgs/PoseStamped desired_pose                # goal pose to send to the
 geometry_msgs/TransformStamped relative_desired_pose  # relative pose from the actual pose as result of the admittance rule
 
 string[] joint_names
-trajectory_msgs/JointTrajectoryPoint desired_joint_states  # result of IK from goal_pose_command
-trajectory_msgs/JointTrajectoryPoint actual_joint_states   # read from the hardware
+trajectory_msgs/JointTrajectoryPoint desired_joint_state  # result of IK from goal_pose_command
+trajectory_msgs/JointTrajectoryPoint actual_joint_state   # read from the hardware
 trajectory_msgs/JointTrajectoryPoint error_joint_state
