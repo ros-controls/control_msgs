@@ -1,0 +1,27 @@
+name: Build rolling
+on:
+  pull_request:
+  push:
+    branches:
+      - foxy-devel
+      - galactic-devel
+  schedule:
+    # Run every day to detect flakiness and broken dependencies
+    - cron: '28 6 * * *'
+
+jobs:
+  binary:
+    name: binary build
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        env:
+          - {ROS_DISTRO: rolling, ROS_REPO: main}
+          - {ROS_DISTRO: rolling, ROS_REPO: testing}
+    env:
+      DOWNSTREAM_WORKSPACE: https://raw.githubusercontent.com/ros-controls/ros2_control/master/ros2_control/ros2_control.repos
+    steps:
+      - uses: actions/checkout@v1
+      - uses: 'ros-industrial/industrial_ci@master'
+        env: ${{matrix.env}}
+

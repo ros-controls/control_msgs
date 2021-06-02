@@ -1,0 +1,30 @@
+name: Build Source galactic
+on:
+  push:
+    branches:
+      - galactic-devel
+  schedule:
+    # Run every day to detect flakiness and broken dependencies
+    - cron: '28 3 * * *'
+
+jobs:
+  source:
+    name: source build
+    runs-on: ubuntu-20.04
+    strategy:
+      fail-fast: false
+    steps:
+      - uses: ros-tooling/setup-ros@0.0.26
+      - uses: ros-tooling/action-ros-ci@0.2
+        with:
+          target-ros2-distro: galactic
+          # build all packages listed in the meta package
+          package-name:
+            $NAME$
+          vcs-repo-file-url: |
+            https://raw.githubusercontent.com/ros2/ros2/galactic/ros2.repos
+          colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
+      - uses: actions/upload-artifact@v1
+        with:
+          name: colcon-logs-${{ matrix.os }}
+          path: ros_ws/log
