@@ -8,7 +8,8 @@ add_action_files(DIRECTORY action FILES
   GripperCommand.action
   JointTrajectory.action
   PointHead.action
-  SingleJointPosition.action)
+  SingleJointPosition.action
+  JointGroupCommand.action)
 
 add_message_files(DIRECTORY msg FILES
   GripperCommand.msg

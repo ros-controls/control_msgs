@@ -30,4 +30,5 @@ string error_string
 ---
 Header header
 string[] joint_names
-control_msgs/JointControllerState[] states
+float64[] desired
+trajectory_msgs/JointTrajectoryPoint actual
