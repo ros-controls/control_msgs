@@ -20,7 +20,7 @@ jobs:
           target-ros2-distro: foxy
           # build all packages listed in the meta package
           package-name:
-            $NAME$
+            control_msgs
           vcs-repo-file-url: |
             https://raw.githubusercontent.com/ros2/ros2/foxy/ros2.repos
           colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml

@@ -15,13 +15,13 @@ jobs:
     strategy:
       fail-fast: false
     steps:
-      - uses: ros-tooling/setup-ros@0.0.26
+      - uses: ros-tooling/setup-ros@0.2
       - uses: ros-tooling/action-ros-ci@0.2
         with:
           target-ros2-distro: rolling
           # build all packages listed in the meta package
           package-name:
-            $NAME$
+            control_msgs
           vcs-repo-file-url: |
             https://raw.githubusercontent.com/ros2/ros2/rolling/ros2.repos
           colcon-mixin-repository: https://raw.githubusercontent.com/colcon/colcon-mixin-repository/master/index.yaml
