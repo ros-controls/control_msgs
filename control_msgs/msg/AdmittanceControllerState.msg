@@ -1,0 +1,12 @@
+sensor_msgs/JointState joint_state
+std_msgs/Float64MultiArray damping
+std_msgs/Float64MultiArray mass
+std_msgs/Int8MultiArray selected_axes
+std_msgs/Float64MultiArray stiffness
+geometry_msgs/WrenchStamped wrench_base
+geometry_msgs/TwistStamped admittance_acceleration
+geometry_msgs/TwistStamped admittance_velocity
+geometry_msgs/TransformStamped admittance_position
+geometry_msgs/QuaternionStamped rot_base_control
+geometry_msgs/TransformStamped ref_trans_base_ft
+std_msgs/String ft_sensor_frame
