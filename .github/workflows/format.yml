@@ -23,4 +23,3 @@ jobs:
     - uses: pre-commit/action@v2.0.3
       with:
         extra_args: --all-files --hook-stage manual
-        token: ${{ secrets.GITHUB_TOKEN }}
