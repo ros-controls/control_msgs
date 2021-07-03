@@ -6,10 +6,9 @@ See [control_msgs documentation](http://wiki.ros.org/control_msgs) on ros.org
 
 ### Build Status
 
-Kinetic/Melodic/Noetic | Foxy | Galactic | Rolling |
- --------------------- | ------ | ---- | -------- | -------
-[![Build Status](https://github.com/ros-controls/control_msgs/workflows/Test%20control_msgs/badge.svg?branch=kinetic-devel)](https://github.com/ros-controls/control_msgs/actions?query=workflow%3A%22Test+control_msgs%22+branch%3Akinetic-devel) |
-TBD | TBD | TBD
+Kinetic | Melodic | Crystal | Dashing | Eloquent | Foxy
+ ------ | ------ | ------ | ------ | ------ | ------
+[![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=kinetic-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=kinetic-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://api.travis-ci.org/ros-controls/control_msgs.png?branch=foxy-devel)](https://travis-ci.org/ros-controls/control_msgs)  
 
 
 ## Code Formatting
