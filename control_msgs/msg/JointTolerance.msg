@@ -3,7 +3,7 @@
 # of trajectory control, when the actual position varies beyond
 # (desired position + position tolerance), the trajectory goal may
 # abort.
-# 
+#
 # There are two special values for tolerances:
 #  * 0 - The tolerance is unspecified and will remain at whatever the default is
 #  * -1 - The tolerance is "erased".  If there was a default, the joint will be
