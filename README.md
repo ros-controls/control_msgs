@@ -6,9 +6,15 @@ See [control_msgs documentation](http://wiki.ros.org/control_msgs) on ros.org
 
 ### Build Status
 
-Kinetic | Melodic | Crystal | Dashing | Eloquent | Foxy
- ------ | ------ | ------ | ------ | ------ | ------
-[![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=kinetic-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=kinetic-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://api.travis-ci.org/ros-controls/control_msgs.png?branch=foxy-devel)](https://travis-ci.org/ros-controls/control_msgs)
+.      | Kinetic <br /> Melodic <br /> Noetic | Crystal <br /> Dashing <br /> Eloquent | Foxy | Galactic | Rolling
+------ | :----------------------------------: | :------------------------------------: | :--: | :------: | :-----:
+Branch | [kinetic-devel](https://github.com/ros-controls/control_msgs/tree/kinetic-devel) | [crystal-devel](https://github.com/ros-controls/control_msgs/tree/crystal-devel) | [foxy-devel](https://github.com/ros-controls/control_msgs/tree/foxy-devel) | [galactic-devel](https://github.com/ros-controls/control_msgs/tree/galactic-devel) | [foxy-devel](https://github.com/ros-controls/control_msgs/tree/foxy-devel) <br /> [galactic-devel](https://github.com/ros-controls/control_msgs/tree/galactic-devel)
+Build | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=kinetic-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build foxy](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml/badge.svg?branch=foxy-devel)](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml) | [![Build galactic](https://github.com/ros-controls/control_msgs/actions/workflows/build-galactic.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-galactic.yml) | [![Build foxy](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml/badge.svg?branch=foxy-devel)](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml) | [![Build rolling](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml)
+
+Format: [![Format](https://github.com/ros-controls/control_msgs/actions/workflows/format.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/format.yml)
+
+ROS2 lint: [![ROS2 Lint](https://github.com/ros-controls/control_msgs/actions/workflows/ros-lint.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/ros-lint.yml)
+
 
 
 ## Code Formatting
