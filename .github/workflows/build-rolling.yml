@@ -6,7 +6,6 @@ on:
   pull_request:
   push:
     branches:
-      - foxy-devel
       - galactic-devel
   schedule:
     # Run every day to detect flakiness and broken dependencies
