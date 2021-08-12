@@ -6,12 +6,12 @@ Header header
 string[] joint_names
 
 # A command to the joints listed in joint_names.
+# Can be position, velocity, effort, and/or acceleration.
 # The order must be identical.
-float64[] command
-
-# Command duration / timeout
+# time_from_start is the command duration / timeout
 # Set to 0 for no timeout.
-duration timeout
+trajectory_msgs/JointTrajectoryPoint command
+
 ---
 int32 error_code
 int32 SUCCESSFUL = 0
@@ -30,5 +30,5 @@ string error_string
 ---
 Header header
 string[] joint_names
-float64[] desired
+trajectory_msgs/JointTrajectoryPoint desired
 trajectory_msgs/JointTrajectoryPoint actual
