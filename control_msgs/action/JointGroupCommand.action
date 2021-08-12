@@ -1,0 +1,34 @@
+# Used in time-stamping the goal.
+Header header
+
+# Name list of the joints. You don't need to specify all joints of the
+# robot. Joint names are case-sensitive.
+string[] joint_names
+
+# A command to the joints listed in joint_names.
+# Can be position, velocity, effort, and/or acceleration.
+# The order must be identical.
+# time_from_start is the command duration / timeout
+# Set to 0 for no timeout.
+trajectory_msgs/JointTrajectoryPoint command
+
+---
+int32 error_code
+int32 SUCCESSFUL = 0
+int32 INVALID_GOAL = -1
+int32 INVALID_JOINTS = -2
+int32 OLD_HEADER_TIMESTAMP = -3
+
+# Human readable description of the error code. Contains complementary
+# information that is especially useful when execution fails, for instance:
+# - INVALID_GOAL: The reason for the invalid goal (e.g., the requested
+#   command violates the controller limits).
+# - INVALID_JOINTS: The mismatch between the expected controller joints
+#   and those provided in the goal.
+string error_string
+
+---
+Header header
+string[] joint_names
+trajectory_msgs/JointTrajectoryPoint desired
+trajectory_msgs/JointTrajectoryPoint actual
