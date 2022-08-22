@@ -102,7 +102,7 @@ repos:
     hooks:
       - id: ament_lint_cmake
         name: ament_lint_cmake
-        description: Check format of gen_param_struct.cmake files.
+        description: Check format of CMakeLists.txt files.
         stages: [commit]
         entry: ament_lint_cmake
         language: system

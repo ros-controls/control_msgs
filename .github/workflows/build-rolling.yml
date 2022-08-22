@@ -33,7 +33,7 @@ jobs:
         uses: pat-s/always-upload-cache@v2.1.3
         with:
           path: ${{ env.BASEDIR }}/target_ws
-          key: target_ws-${{ env.CACHE_PREFIX }}-${{ hashFiles('**/gen_param_struct.cmake', '**/package.xml') }}-${{ github.run_id }}
+          key: target_ws-${{ env.CACHE_PREFIX }}-${{ hashFiles('**/CMakeLists.txt', '**/package.xml') }}-${{ github.run_id }}
           restore-keys: |
             target_ws-${{ env.CACHE_PREFIX }}-${{ hashFiles('**/CMakeLists.txt', '**/package.xml') }}
       - name: cache ccache
