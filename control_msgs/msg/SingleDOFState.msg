@@ -1,9 +1,7 @@
-# This message presents current controller state of one joint.
+# This message presents current controller state of one degree of freedom.
 
-# It is deprecated as of Humble in favor of SingleDOFStateStamped.msg
-
-# Header timestamp should be update time of controller state
-std_msgs/Header header
+# DoF name, e.g., joint or Cartesian axis name
+string name
 
 # The set point, that is, desired state.
 float64 set_point
