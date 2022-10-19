@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add status admittance controller message (`#68 <https://github.com/ros-controls/control_msgs/issues/68>`_)
+* Contributors: Paul Gesel
+
 4.0.0 (2022-08-01)
 ------------------
 * Added controller states for multi dof joints (`#64 <https://github.com/ros-controls/control_msgs/issues/64>`_)
