@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.0 (2022-10-19)
+------------------
 * Add status admittance controller message (`#68 <https://github.com/ros-controls/control_msgs/issues/68>`_)
 * Contributors: Paul Gesel
 
