@@ -15,6 +15,9 @@ float64 process_value_dot
 # The error of the controlled value, essentially process_value - set_point (for a regular PID implementation).
 float64 error
 
+# First time-derivative of the error of the controlled value.
+float64 error_dot
+
 # Time between two consecutive updates/execution of the control law.
 float64 time_step
 
