@@ -1,0 +1,6 @@
+# This service enables setting joint limits for an arbitrary axis in an multi-axes controller with arbitrary number of axes.
+
+string[] names
+DOFLimits[] limits
+---
+bool ok
