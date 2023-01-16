@@ -14,6 +14,7 @@ find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
 find_package(builtin_interfaces REQUIRED)
 find_package(geometry_msgs REQUIRED)
+find_package(nav_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
@@ -29,6 +30,7 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
+  msg/MecanumDriveControllerState.msg
   msg/PidState.msg
   msg/SteeringControllerStatus.msg
 )
@@ -59,6 +61,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     action_msgs
     builtin_interfaces
     geometry_msgs
+    nav_msgs
     sensor_msgs
     std_msgs
     trajectory_msgs
