@@ -21,6 +21,7 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/AdmittanceController2021State.msg
   msg/DOFLimits.msg
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
