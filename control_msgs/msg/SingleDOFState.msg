@@ -24,9 +24,3 @@ float64 time_step
 # Current output of the controller.
 float64 command
 
-# Current PID parameters of the controller.
-float64 p
-float64 i
-float64 d
-float64 i_clamp
-bool antiwindup
