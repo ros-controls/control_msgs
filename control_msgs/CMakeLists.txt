@@ -29,6 +29,7 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
+  msg/MecanumDriveControllerState.msg
   msg/PidState.msg
 )
 
