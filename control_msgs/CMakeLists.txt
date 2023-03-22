@@ -31,6 +31,7 @@ set(msg_files
   msg/JointTrajectoryControllerState.msg
   msg/MecanumDriveControllerState.msg
   msg/PidState.msg
+  msg/SteeringControllerStatus.msg
 )
 
 set(action_files
