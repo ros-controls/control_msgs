@@ -18,7 +18,6 @@ find_package(rosidl_default_generators REQUIRED)
 find_package(sensor_msgs REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(trajectory_msgs REQUIRED)
-find_package(nav_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
@@ -63,7 +62,6 @@ rosidl_generate_interfaces(${PROJECT_NAME}
     sensor_msgs
     std_msgs
     trajectory_msgs
-    nav_msgs
   ADD_LINTER_TESTS
 )
 ament_export_dependencies(rosidl_default_runtime)
