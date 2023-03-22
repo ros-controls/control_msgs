@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.2.0 (2023-03-22)
+------------------
 * Add state message for mechanum controller #79 
 * Status message for steering controllers
 * Contributors: Denis Štogl, GiridharBukka, petkovich
