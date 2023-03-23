@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.1.1 (2023-03-23)
+------------------
 * Status message for steering controllers (backport `#72 <https://github.com/ros-controls/control_msgs/issues/72>`_) (`#83 <https://github.com/ros-controls/control_msgs/issues/83>`_)
 * Add state message for mechanum controller (backport `#79 <https://github.com/ros-controls/control_msgs/issues/79>`_) (`#82 <https://github.com/ros-controls/control_msgs/issues/82>`_)
 * Contributors: Bence Magyar, Denis Stogl, Giridhar Bukka
