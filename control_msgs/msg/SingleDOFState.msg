@@ -4,13 +4,13 @@
 string name
 
 # The set point, that is, desired state.
-float64 set_point
+float64 reference
 
 # Current value of the process (ie: latest sensor measurement on the controlled value).
-float64 process_value
+float64 feedback
 
-# First time-derivative of the process value.
-float64 process_value_dot
+# First time-derivative of the process value. E.g., velocity.
+float64 feedback_dot
 
 # The error of the controlled value, essentially process_value - set_point (for a regular PID implementation).
 float64 error
@@ -22,5 +22,5 @@ float64 error_dot
 float64 time_step
 
 # Current output of the controller.
-float64 command
+float64 output
 
