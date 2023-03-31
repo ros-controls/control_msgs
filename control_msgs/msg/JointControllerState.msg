@@ -1,5 +1,7 @@
 # This message presents current controller state of one joint.
 
+# It is deprecated as of Humble in favor of SingleDOFStateStamped.msg
+
 # Header timestamp should be update time of controller state
 std_msgs/Header header
 
