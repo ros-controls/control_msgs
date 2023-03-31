@@ -23,4 +23,3 @@ float64 time_step
 
 # Current output of the controller.
 float64 output
-

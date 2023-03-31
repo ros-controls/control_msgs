@@ -11,4 +11,3 @@ float64[] values
 # First derivation of the values, e.g., velocity if values are positions.
 # This is useful for PID and similar controllers.
 float64[] values_dot
-
