@@ -2,6 +2,25 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+4.2.0 (2023-03-22)
+------------------
+* Add state message for mechanum controller #79
+* Status message for steering controllers
+* Contributors: Denis Štogl, GiridharBukka, petkovich
+
+4.1.0 (2022-10-19)
+------------------
+* Add status admittance controller message (`#68 <https://github.com/ros-controls/control_msgs/issues/68>`_)
+* Contributors: Paul Gesel
+
+4.0.0 (2022-08-01)
+------------------
+* Added controller states for multi dof joints (`#64 <https://github.com/ros-controls/control_msgs/issues/64>`_)
+* Add initial configurations for multiple distros. (`#59 <https://github.com/ros-controls/control_msgs/issues/59>`_)
+  * Add CI configuration with multiple ROS distributions and use pre-commit in the repository.
+  * Add badges
+* Contributors: Denis Štogl, George Stavrinos
+
 3.0.0 (2021-05-27)
 ------------------
 * Extend FollowJointTrajectoryAction with multi_dof_trajectory variable
