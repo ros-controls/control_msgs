@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.3.0 (2023-04-02)
+------------------
 * Add generic messages for commanding and getting states from controllers. (`#69 <https://github.com/ros-controls/control_msgs/issues/69>`_)
 * Contributors: Dr. Denis
 
