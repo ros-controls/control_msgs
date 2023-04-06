@@ -51,7 +51,7 @@ set(action_files
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
-  srv/ResetAxis.srv
+  srv/ResetDofs.srv
   srv/SetDOFLimits.srv
 )
 

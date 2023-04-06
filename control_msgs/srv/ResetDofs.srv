@@ -1,0 +1,5 @@
+# This service enables resetting internal value of a controller with multiple degrees of freedom.
+
+string[] names
+---
+bool ok

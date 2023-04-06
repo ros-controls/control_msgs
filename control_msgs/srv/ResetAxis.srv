@@ -1,5 +1,0 @@
-# This service enables reseting internal value of a multi-axis controller for arbitrary number of axes.
-
-string[] names
----
-bool ok
