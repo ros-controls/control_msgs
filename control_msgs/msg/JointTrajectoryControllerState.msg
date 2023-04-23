@@ -8,7 +8,7 @@ string[] joint_names
 trajectory_msgs/JointTrajectoryPoint reference
 # Current value of the process (ie: latest sensor measurement on the controlled value).
 trajectory_msgs/JointTrajectoryPoint feedback
-# First time-derivative of the process value. E.g., velocity.
+# The error of the controlled value, essentially reference - feedback (for a regular PID implementation).
 trajectory_msgs/JointTrajectoryPoint error
 # Current output of the controller.
 trajectory_msgs/JointTrajectoryPoint output
@@ -21,7 +21,7 @@ string[] multi_dof_joint_names
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_reference
 # Current value of the process (ie: latest sensor measurement on the controlled value).
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_feedback
-# First time-derivative of the process value. E.g., velocity.
+# The error of the controlled value, essentially reference - feedback (for a regular PID implementation).
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_error
 # Current output of the controller.
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_output
