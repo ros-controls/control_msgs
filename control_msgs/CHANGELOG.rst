@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.4.0 (2023-04-28)
+------------------
 * Update JTC state message (`#87 <https://github.com/ros-controls/control_msgs/issues/87>`_)
 * Contributors: Christoph Fröhlich
 
