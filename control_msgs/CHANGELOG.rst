@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update JTC state message (`#87 <https://github.com/ros-controls/control_msgs/issues/87>`_)
+* Contributors: Christoph Fröhlich
+
 4.1.1 (2023-03-23)
 ------------------
 * Status message for steering controllers (backport `#72 <https://github.com/ros-controls/control_msgs/issues/72>`_) (`#83 <https://github.com/ros-controls/control_msgs/issues/83>`_)
