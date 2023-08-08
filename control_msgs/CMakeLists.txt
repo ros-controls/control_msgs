@@ -23,6 +23,7 @@ set(msg_files
   msg/AdmittanceControllerState.msg
   msg/AdmittanceController2021State.msg
   msg/DOFLimits.msg
+  msg/CartesianTrajectoryGeneratorState.msg
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
