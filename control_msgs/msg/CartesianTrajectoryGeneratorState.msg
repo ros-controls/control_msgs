@@ -6,6 +6,8 @@ trajectory_msgs/MultiDOFJointTrajectoryPoint reference_world
 trajectory_msgs/MultiDOFJointTrajectoryPoint reference_local
 # Current value of the process (ie: latest sensor measurement or estimation on the controlled value).
 trajectory_msgs/MultiDOFJointTrajectoryPoint feedback
+# Adjusted feedback message for the interpolation in the local frame.
+trajectory_msgs/MultiDOFJointTrajectoryPoint feedback_local
 # The error of the controlled value, essentially reference - feedback (for a regular PID implementation).
 trajectory_msgs/MultiDOFJointTrajectoryPoint error
 # Current output of the controller.
