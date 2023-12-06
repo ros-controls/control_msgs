@@ -2,6 +2,16 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+5.0.0 (2023-04-28)
+------------------
+* Update JTC state message (`#86 <https://github.com/ros-controls/control_msgs/issues/86>`_)
+* Contributors: Christoph Fröhlich
+
+4.3.0 (2023-04-02)
+------------------
+* Add generic messages for commanding and getting states from controllers. (`#69 <https://github.com/ros-controls/control_msgs/issues/69>`_)
+* Contributors: Dr. Denis
+
 4.2.0 (2023-03-22)
 ------------------
 * Add state message for mechanum controller #79

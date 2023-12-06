@@ -12,7 +12,7 @@ float64 feedback
 # First time-derivative of the process value. E.g., velocity.
 float64 feedback_dot
 
-# The error of the controlled value, essentially process_value - set_point (for a regular PID implementation).
+# The error of the controlled value, essentially reference - feedback (for a regular PID implementation).
 float64 error
 
 # First time-derivative of the error of the controlled value.
