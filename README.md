@@ -1,16 +1,17 @@
 control_msgs
 ===========
 
-See [control_msgs documentation](http://wiki.ros.org/control_msgs) on ros.org
+See [control_msgs documentation](https://index.ros.org/p/control_msgs/) on index.ros.org
 
 
 ### Build Status
 
-Kinetic <br /> Melodic <br /> Noetic | Crystal <br /> Dashing <br /> Eloquent | Foxy | Galactic | Rolling
-:----------------------------------: | :------------------------------------: | :--: | :------: | :-----:
-[kinetic-devel](https://github.com/ros-controls/control_msgs/tree/kinetic-devel) | [crystal-devel](https://github.com/ros-controls/control_msgs/tree/crystal-devel) | [foxy-devel](https://github.com/ros-controls/control_msgs/tree/foxy-devel) | [galactic-devel](https://github.com/ros-controls/control_msgs/tree/galactic-devel) | [galactic-devel](https://github.com/ros-controls/control_msgs/tree/galactic-devel)
-[![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=kinetic-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build Status](https://travis-ci.org/ros-controls/control_msgs.png?branch=crystal-devel)](https://travis-ci.org/ros-controls/control_msgs) | [![Build foxy](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml/badge.svg?branch=foxy-devel)](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml) | [![Build galactic](https://github.com/ros-controls/control_msgs/actions/workflows/build-galactic.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-galactic.yml) | [![Build foxy](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml/badge.svg?branch=foxy-devel)](https://github.com/ros-controls/control_msgs/actions/workflows/build-foxy.yml) | [![Build rolling](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml)
-
+| Distribution | Repository Link | Build Status |
+|--------------|-----------------|--------------|
+| Noetic       | [kinetic-devel](https://github.com/ros-controls/control_msgs/tree/kinetic-devel) | [Build status](https://travis-ci.org/ros-controls/control_msgs) |
+| Humble      | [humble](https://github.com/ros-controls/control_msgs/tree/humble) | [![Build humble](https://github.com/ros-controls/control_msgs/actions/workflows/build-humble.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-humble.yml) |
+| Iron     | [master](https://github.com/ros-controls/control_msgs/tree/master) | [![Build rolling](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml) |
+| Rolling     | [master](https://github.com/ros-controls/control_msgs/tree/master) | [![Build rolling](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml/badge.svg)](https://github.com/ros-controls/control_msgs/actions/workflows/build-rolling.yml) |
 
 ## Code Formatting
 
