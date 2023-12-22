@@ -36,7 +36,6 @@ set(msg_files
   msg/PidState.msg
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
-  msg/SingleInterfaceValue.msg
   msg/SteeringControllerStatus.msg
 )
 
