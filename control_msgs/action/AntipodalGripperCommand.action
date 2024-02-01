@@ -1,0 +1,14 @@
+# Antipodal grippers refer to an end effector where two opposing fingers grasp an object from opposite sides.
+sensor_msgs/JointState command # The velocity and effort fields are optional and not used if empty.
+---
+sensor_msgs/JointState state # The current gripper state.
+# position of each joint (radians or meters)
+# optional: velocity of each joint (radians or meters / second)
+# optional: effort of each joint (Newtons or Newton-meters)
+---
+sensor_msgs/JointState state # The current gripper state.
+# position of each joint (radians or meters)
+# optional: velocity of each joint (radians or meters / second)
+# optional: effort of each joint (Newtons or Newton-meters)
+bool stalled      # True iff the gripper is exerting max effort and not moving
+bool reached_goal # True iff the gripper position has reached the commanded setpoint
