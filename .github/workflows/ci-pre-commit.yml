@@ -15,3 +15,4 @@ jobs:
         ROS_DISTRO: [rolling, iron]
     with:
       ros_distro: ${{ matrix.ROS_DISTRO }}
+      os_name: ubuntu-22.04
