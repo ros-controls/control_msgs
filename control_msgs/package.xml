@@ -9,7 +9,9 @@
     setpoints and joint and cartesian trajectories.
   </description>
   <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
-  <license>BSD</license>
+
+  <license>BSD-3-Clause</license>
+
   <url>http://ros.org/wiki/control_msgs</url>
   <author email="sglaser@willowgarage.com">Stuart Glaser</author>
 
