@@ -20,7 +20,7 @@
 
   <!-- action_msgs is needed up to humble -->
   <!-- https://github.com/ros2/rcl_interfaces/issues/75 -->
-  <!-- TODO(anyone) remove if master branch - compatibility on humble is not necessary any more -->
+  <!-- TODO(anyone) remove if master branch - compatibility on humble is not necessary anymore -->
   <depend>action_msgs</depend>
   <depend>builtin_interfaces</depend>
   <depend>geometry_msgs</depend>
