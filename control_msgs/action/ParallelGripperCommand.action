@@ -9,8 +9,8 @@ sensor_msgs/JointState state # The current gripper state.
 # position of each joint (radians or meters)
 # optional: velocity of each joint (radians or meters / second)
 # optional: effort of each joint (Newtons or Newton-meters)
-bool stalled      # True iff the gripper is exerting max effort and not moving
-bool reached_goal # True iff the gripper position has reached the commanded setpoint
+bool stalled      # True if the gripper is exerting max effort and not moving
+bool reached_goal # True if the gripper position has reached the commanded setpoint
 ---
 sensor_msgs/JointState state # The current gripper state.
 # position of each joint (radians or meters)
