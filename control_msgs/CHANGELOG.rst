@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add ParallelGripperCommand (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_)
+* Specify BSD as BSD-3-Clause (`#114 <https://github.com/ros-controls/control_msgs/issues/114>`_)
+* Contributors: Christoph Fröhlich, Paul Gesel
+
 5.0.0 (2023-04-28)
 ------------------
 * Update JTC state message (`#86 <https://github.com/ros-controls/control_msgs/issues/86>`_)
