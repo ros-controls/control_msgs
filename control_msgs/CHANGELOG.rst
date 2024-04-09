@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.1.0 (2024-04-09)
+------------------
 * Add ParallelGripperCommand (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_)
 * Specify BSD as BSD-3-Clause (`#114 <https://github.com/ros-controls/control_msgs/issues/114>`_)
 * Contributors: Christoph Fröhlich, Paul Gesel
