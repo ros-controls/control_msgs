@@ -39,6 +39,7 @@ set(msg_files
 )
 
 set(action_files
+  action/ParallelGripperCommand.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
