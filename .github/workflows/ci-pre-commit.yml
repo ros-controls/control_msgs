@@ -7,12 +7,14 @@ on:
       - master
 
 jobs:
-  pre-commit:
+  pre-commit-iron:
     uses: ros-controls/ros2_control_ci/.github/workflows/reusable-pre-commit.yml@master
-    strategy:
-      fail-fast: false
-      matrix:
-        ROS_DISTRO: [rolling, iron]
     with:
-      ros_distro: ${{ matrix.ROS_DISTRO }}
+      ros_distro: iron
       os_name: ubuntu-22.04
+
+  pre-commit-rolling:
+    uses: ros-controls/ros2_control_ci/.github/workflows/reusable-pre-commit.yml@master
+    with:
+      ros_distro: rolling
+      container: ubuntu:24.04
