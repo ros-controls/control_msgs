@@ -5,14 +5,14 @@
   <version>5.1.0</version>
   <description>
     control_msgs contains base messages and actions useful for
-    controlling robots.  It provides representations for controller
+    controlling robots. It provides representations for controller
     setpoints and joint and cartesian trajectories.
   </description>
   <maintainer email="bence.magyar.robotics@gmail.com">Bence Magyar</maintainer>
 
   <license>BSD-3-Clause</license>
 
-  <url>http://ros.org/wiki/control_msgs</url>
+  <url type="website">https://control.ros.org</url>
   <author email="sglaser@willowgarage.com">Stuart Glaser</author>
 
   <buildtool_depend>ament_cmake</buildtool_depend>
