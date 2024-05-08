@@ -9,10 +9,5 @@ on:
 jobs:
   pre-commit:
     uses: ros-controls/ros2_control_ci/.github/workflows/reusable-pre-commit.yml@master
-    strategy:
-      fail-fast: false
-      matrix:
-        ROS_DISTRO: [humble]
     with:
-      ros_distro: ${{ matrix.ROS_DISTRO }}
-      os_name: ubuntu-22.04
+      ros_distro: humble
