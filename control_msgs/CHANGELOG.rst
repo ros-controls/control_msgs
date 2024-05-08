@@ -2,6 +2,13 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add velocity to gripper command (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_) (`#129 <https://github.com/ros-controls/control_msgs/issues/129>`_)
+* Add custom rosdoc2 config (`#132 <https://github.com/ros-controls/control_msgs/issues/132>`_) (`#135 <https://github.com/ros-controls/control_msgs/issues/135>`_)
+* Specify BSD as BSD-3-Clause (`#114 <https://github.com/ros-controls/control_msgs/issues/114>`_) (`#116 <https://github.com/ros-controls/control_msgs/issues/116>`_)
+* Contributors: Christoph Fröhlich, Paul Gesel
+
 4.4.0 (2023-04-28)
 ------------------
 * Update JTC state message (`#87 <https://github.com/ros-controls/control_msgs/issues/87>`_)
