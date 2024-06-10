@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add message for publishing interface values with name and stamp (`#98 <https://github.com/ros-controls/control_msgs/issues/98>`_)
+* Add custom rosdoc2 config (`#132 <https://github.com/ros-controls/control_msgs/issues/132>`_)
+* Contributors: Christoph Fröhlich, Manuel Muth
+
 5.1.0 (2024-04-09)
 ------------------
 * Add ParallelGripperCommand (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_)
