@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Propose generic messages for commanding and getting states from controllers. (backport `#69 <https://github.com/ros-controls/control_msgs/issues/69>`_) (`#133 <https://github.com/ros-controls/control_msgs/issues/133>`_)
+* Contributors: mergify[bot]
+
 4.5.0 (2024-05-08)
 ------------------
 * Add velocity to gripper command (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_) (`#129 <https://github.com/ros-controls/control_msgs/issues/129>`_)
