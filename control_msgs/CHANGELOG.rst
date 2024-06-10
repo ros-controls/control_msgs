@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.2.0 (2024-06-10)
+------------------
 * Add message for publishing interface values with name and stamp (`#98 <https://github.com/ros-controls/control_msgs/issues/98>`_)
 * Add custom rosdoc2 config (`#132 <https://github.com/ros-controls/control_msgs/issues/132>`_)
 * Contributors: Christoph Fröhlich, Manuel Muth
