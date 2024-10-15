@@ -22,3 +22,5 @@ trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_feedback
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_error
 # Current output of the controller.
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_output
+# The speed scaling factor the trajectory is currently being executed with
+float64 speed_scaling_factor
