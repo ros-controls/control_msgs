@@ -38,6 +38,7 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
+  msg/DynamicComponentValues.msg
 )
 
 set(action_files
