@@ -21,6 +21,7 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
@@ -38,7 +39,6 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
-  msg/DynamicComponentValues.msg
 )
 
 set(action_files
