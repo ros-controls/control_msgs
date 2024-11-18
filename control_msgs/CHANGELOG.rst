@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.3.0 (2024-11-18)
+------------------
 * Add Dynamic Interface Group Values message (`#155 <https://github.com/ros-controls/control_msgs/issues/155>`_)
 * Add speed_scaling_factor msg and field in JointTrajectoryControllerState (`#143 <https://github.com/ros-controls/control_msgs/issues/143>`_)
 * Contributors: Felix Exner (fexner), Wiktor Bajor
