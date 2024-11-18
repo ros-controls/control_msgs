@@ -21,11 +21,7 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
-<<<<<<< HEAD
-=======
   msg/DynamicInterfaceGroupValues.msg
-  msg/DynamicInterfaceValues.msg
->>>>>>> 0b9753e (Add Dynamic Interface Group Values message (#155))
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
