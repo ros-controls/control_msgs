@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add Dynamic Interface Group Values message (backport `#155 <https://github.com/ros-controls/control_msgs/issues/155>`_) (`#156 <https://github.com/ros-controls/control_msgs/issues/156>`_)
+* Contributors: mergify[bot]
+
 4.6.0 (2024-06-10)
 ------------------
 * Propose generic messages for commanding and getting states from controllers. (backport `#69 <https://github.com/ros-controls/control_msgs/issues/69>`_) (`#133 <https://github.com/ros-controls/control_msgs/issues/133>`_)
