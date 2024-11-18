@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+4.7.0 (2024-11-18)
+------------------
 * Add Dynamic Interface Group Values message (backport `#155 <https://github.com/ros-controls/control_msgs/issues/155>`_) (`#156 <https://github.com/ros-controls/control_msgs/issues/156>`_)
 * Contributors: mergify[bot]
 
