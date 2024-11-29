@@ -39,6 +39,7 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
+  msg/IoGripperSensor.msg
 )
 
 set(action_files
@@ -53,6 +54,7 @@ set(action_files
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetConfig.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
