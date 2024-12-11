@@ -49,6 +49,8 @@ set(action_files
   action/JointTrajectory.action
   action/PointHead.action
   action/SingleJointPosition.action
+  action/Gripper.action
+  action/SetGripperConfig.action
 )
 
 set(srv_files
