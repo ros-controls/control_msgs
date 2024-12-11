@@ -7,14 +7,10 @@ on:
   pull_request:
     branches:
       - humble
-  push:
-    branches:
-      - humble
 
 concurrency:
-  # cancel previous runs of the same workflow, except for pushes on humble branch
   group: ${{ github.workflow }}-${{ github.ref }}
-  cancel-in-progress: ${{ !startsWith(github.ref, '/refs/heads') }}
+  cancel-in-progress: true
 
 jobs:
   build-downstream:
