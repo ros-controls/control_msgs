@@ -9,7 +9,7 @@ on:
       - control_msgs/package.xml
 
 concurrency:
-  # cancel previous runs of the same workflow, except for pushes on master branch
+  # cancel previous runs of the same workflow
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
