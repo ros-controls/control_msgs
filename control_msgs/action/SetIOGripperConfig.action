@@ -1,0 +1,22 @@
+# This action interface is defined for setting the configuration of the io gripper controller
+# In yaml file of the io_gripper_controller, the configuration is defined as a list of strings
+# e.g. configurations: ["stichmass_125", "stichmass_250"]
+# The action request is called with the name of the configuration to be set
+
+# The io_gripper_controller follows a set of states to reconfigure the gripper
+# The states are defined as follows:
+# Enum representing the states of the reconfiguration process.
+# 
+# States:
+# - IDLE (0): The reconfiguration process is idle, not performing any action.
+# - FIND_CONFIG (1): Finding the configuration settings.
+# - SET_COMMAND (2): Setting the command based on the configuration.
+# - CHECK_STATE (3): Checking the state after setting the command.
+
+
+string config_name # information about which configuration is being set for the gripper controller
+---
+bool result # indicate success for setting the configuration of the gripper controller and vice versa
+string status # informational, e.g. for success or error messages
+---
+uint8 state # state of the gripper as defined above

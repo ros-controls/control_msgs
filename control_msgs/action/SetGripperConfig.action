@@ -1,6 +1,0 @@
-string config_name
----
-bool result
-string status
----
-uint8 state

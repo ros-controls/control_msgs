@@ -39,24 +39,23 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
-  msg/IOGripperSensor.msg
 )
 
 set(action_files
   action/ParallelGripperCommand.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
+  action/IOGripperCommand.action
   action/JointTrajectory.action
   action/PointHead.action
+  action/SetIOGripperConfig.action
   action/SingleJointPosition.action
-  action/Gripper.action
-  action/SetGripperConfig.action
 )
 
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
-  srv/SetConfig.srv
+  srv/SetIOGripperConfig.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
