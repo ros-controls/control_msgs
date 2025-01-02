@@ -39,7 +39,7 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
-  msg/IoGripperSensor.msg
+  msg/IOGripperSensor.msg
 )
 
 set(action_files
