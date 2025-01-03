@@ -45,14 +45,17 @@ set(action_files
   action/ParallelGripperCommand.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
+  action/IOGripperCommand.action
   action/JointTrajectory.action
   action/PointHead.action
+  action/SetIOGripperConfig.action
   action/SingleJointPosition.action
 )
 
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetIOGripperConfig.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}

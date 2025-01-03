@@ -1,0 +1,18 @@
+# This action interface is defined for controlling the io gripper controller to open or close the gripper
+
+# The io_gripper_controller follows a set of states to open/close the gripper
+# The states are defined as follows:
+# IDLE (0): The gripper is in an idle state, not performing any action.
+# SET_BEFORE_COMMAND (1): The gripper is preparing to execute a command.
+# CLOSE_GRIPPER (2): The gripper is closing.
+# CHECK_GRIPPER_STATE (3): The gripper is checking its current state.
+# OPEN_GRIPPER (4): The gripper is opening.
+# SET_AFTER_COMMAND (5): The gripper is finalizing the command execution.
+# HALTED (6): The gripper has halted due to an error or stop command.
+
+bool open # boolean value to indicate if the gripper should be opened or closed (e.g. true for open, false for close)
+---
+bool success # true for performing the gripper command successfully and vice versa
+string message # informational, e.g. for success or error messages
+---
+uint8 state # state of the gripper as defined above
