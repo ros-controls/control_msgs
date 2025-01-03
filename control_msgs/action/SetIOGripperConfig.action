@@ -6,7 +6,6 @@
 # The io_gripper_controller follows a set of states to reconfigure the gripper
 # The states are defined as follows:
 # Enum representing the states of the reconfiguration process.
-# 
 # States:
 # - IDLE (0): The reconfiguration process is idle, not performing any action.
 # - FIND_CONFIG (1): Finding the configuration settings.
