@@ -1,6 +1,6 @@
 # This action interface is defined for setting the configuration of the io gripper controller
 # In yaml file of the io_gripper_controller, the configuration is defined as a list of strings
-# e.g. configurations: ["stichmass_125", "stichmass_250"]
+# e.g. configurations: ["narrow_objects", "wide_objects"]
 # The action request is called with the name of the configuration to be set
 
 # The io_gripper_controller follows a set of states to reconfigure the gripper
