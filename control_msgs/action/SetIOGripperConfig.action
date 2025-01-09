@@ -7,10 +7,12 @@
 # The states are defined as follows:
 # Enum representing the states of the reconfiguration process.
 # States:
-# - IDLE (0): The reconfiguration process is idle, not performing any action.
-# - FIND_CONFIG (1): Finding the configuration settings.
-# - SET_COMMAND (2): Setting the command based on the configuration.
-# - CHECK_STATE (3): Checking the state after setting the command.
+# The reconfiguration process is idle, not performing any action.
+uint8 IDLE=0
+# Setting the command based on the configuration.
+uint8 SET_COMMAND=1
+# Checking the state after setting the command.
+uint8 CHECK_STATE=2
 
 
 string config_name # information about which configuration is being set for the gripper controller
