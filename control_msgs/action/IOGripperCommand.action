@@ -4,14 +4,14 @@
 # Those are returned as feedback.
 
 # The gripper is in an idle state, not performing any action.
-uint8 IDLE=0 
+uint8 IDLE=0
 # The gripper is setting command interfaces to be able to perform open or close action, e.g., disabling breaks.
 uint8 SET_BEFORE_COMMAND=1
-# The close comand is sent to gripper on its command interfaces.
+# The close command is sent to gripper on its command interfaces.
 uint8 CLOSE_GRIPPER=2
 # The controller is checking its current gripper's state on state interfaces.
 uint8 CHECK_GRIPPER_STATE=3
-# The open comand is sent to gripper on its command interfaces.
+# The open command is sent to gripper on its command interfaces.
 uint8 OPEN_GRIPPER=4
 # The gripper is setting "after" commands when open or close process if finished, e.g., engaging breaks.
 uint8 SET_AFTER_COMMAND=5
