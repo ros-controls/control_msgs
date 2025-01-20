@@ -1,10 +1,10 @@
-# The grippers are going through the different states during opening, closing, and configuraiton chnages process.
+# The grippers are going through the different states during opening, closing, and configuration changes process.
 
 # The gripper is in an idle state, not performing any action.
 uint8 IDLE=0
 # The gripper is setting command interfaces to be able to perform open or close action, e.g., disabling breaks.
 uint8 SET_BEFORE_COMMAND=1
-# (optional) Check if brfore command is set correctly and confirmed by the sensors.
+# (optional) Check if before command is set correctly and confirmed by the sensors.
 uint8 CHECK_BEFORE_COMMAND=2
 # Set command to gripper's command interfaces.
 uint8 SET_COMMAND=11
