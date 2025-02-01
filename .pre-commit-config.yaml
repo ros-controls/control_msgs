@@ -62,11 +62,7 @@ repos:
 
   # CPP hooks
   - repo: https://github.com/pre-commit/mirrors-clang-format
-<<<<<<< HEAD
-    rev: v19.1.4
-=======
     rev: v19.1.7
->>>>>>> 522c15e (Bump version of pre-commit hooks (#169))
     hooks:
       - id: clang-format
         args: ['-fallback-style=none', '-i']
