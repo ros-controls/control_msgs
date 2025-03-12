@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.4.0 (2025-03-12)
+------------------
 * Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
 * Contributors: Christoph Fröhlich
 
