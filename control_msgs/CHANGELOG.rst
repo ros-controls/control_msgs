@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+6.0.0 (2025-03-12)
+------------------
 * Cleanup duplicate entries in the msg definition (`#179 <https://github.com/ros-controls/control_msgs/issues/179>`_)
 * Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
 * Contributors: Christoph Fröhlich
