@@ -6,19 +6,15 @@ float64 error
 # derivative of error
 float64 error_dot
 
-# equals error
-float64 p_error
 # weighted integral of error
-float64 i_error
-# equals derivative of error
-float64 d_error
+float64 i_term
 
 # proportional gain
-float64 p_term
+float64 p_gain
 # integral gain
-float64 i_term
+float64 i_gain
 # derivative gain
-float64 d_term
+float64 d_gain
 # upper integral clamp.
 float64 i_max
 # lower integral clamp.
