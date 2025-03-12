@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_) (`#174 <https://github.com/ros-controls/control_msgs/issues/174>`_)
+* Contributors: mergify[bot]
+
 4.7.0 (2024-11-18)
 ------------------
 * Add Dynamic Interface Group Values message (backport `#155 <https://github.com/ros-controls/control_msgs/issues/155>`_) (`#156 <https://github.com/ros-controls/control_msgs/issues/156>`_)
