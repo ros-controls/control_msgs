@@ -4,11 +4,11 @@ control_msgs
 
 control_msgs contains base messages, services and actions useful for controlling robots. It provides representations for controller setpoints and joint and cartesian trajectories.
 
-See [control_msgs documentation](https://index.ros.org/p/control_msgs/) on index.ros.org
+See [control_msgs documentation](http://docs.ros.org/en/rolling/p/control_msgs/) and release infos on [index.ros.org](http://index.ros.org/p/control_msgs).
 
 ## Contributing
-As an open-source project, we welcome each contributor, regardless of their background and experience. Pick a [PR](https://github.com/ros-controls/control_msgs/pulls) and review it, or [create your own](https://github.com/ros-controls/control_msgs/contribute)! We are happy to help you with your first contribution.
-If you are new to the project, please read the [contributing guide](https://control.ros.org/rolling/doc/contributing/contributing.html) for more information on how to get started.
+As an open-source project, we welcome each contributor, regardless of their background and experience. Pick a [PR](https://github.com/ros-controls/control_msgs/pulls) and review it, or [create your own](https://github.com/ros-controls/control_msgs/contribute)!
+If you are new to the project, please read the [contributing guide](https://control.ros.org/rolling/doc/contributing/contributing.html) for more information on how to get started. We are happy to help you with your first contribution.
 
 ## Build Status
 | Distribution | Repository Link | Build Status  | Package build |
