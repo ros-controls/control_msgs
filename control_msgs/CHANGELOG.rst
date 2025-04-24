@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Remove unused members from PidState.msg (`#178 <https://github.com/ros-controls/control_msgs/issues/178>`_)
+* Contributors: Victor Coutinho Vieira Santos
+
 6.0.0 (2025-03-12)
 ------------------
 * Cleanup duplicate entries in the msg definition (`#179 <https://github.com/ros-controls/control_msgs/issues/179>`_)
