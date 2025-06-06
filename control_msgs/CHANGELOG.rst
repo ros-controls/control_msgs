@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_)
+* Refine naming in SteeringControllerStatus (`#211 <https://github.com/ros-controls/control_msgs/issues/211>`_)
+* Contributors: Christoph Fröhlich
+
 6.1.0 (2025-04-24)
 ------------------
 * Remove unused members from PidState.msg (`#178 <https://github.com/ros-controls/control_msgs/issues/178>`_)
