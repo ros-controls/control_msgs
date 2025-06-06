@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_) (`#216 <https://github.com/ros-controls/control_msgs/issues/216>`_)
+* Contributors: mergify[bot]
+
 5.4.0 (2025-03-12)
 ------------------
 * Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
