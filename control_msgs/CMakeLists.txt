@@ -1,14 +1,6 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
 project(control_msgs)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
 
 find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
@@ -21,6 +13,8 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/DynamicInterfaceGroupValues.msg
+  msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
@@ -36,9 +30,11 @@ set(msg_files
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
+  msg/SpeedScalingFactor.msg
 )
 
 set(action_files
+  action/ParallelGripperCommand.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
@@ -50,11 +46,6 @@ set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
 )
-
-if(BUILD_TESTING)
-  find_package(ament_lint_auto REQUIRED)
-  ament_lint_auto_find_test_dependencies()
-endif()
 
 rosidl_generate_interfaces(${PROJECT_NAME}
   ${action_files}

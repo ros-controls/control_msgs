@@ -2,6 +2,41 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.2.0 (2025-06-06)
+------------------
+* Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_)
+* Refine naming in SteeringControllerStatus (`#211 <https://github.com/ros-controls/control_msgs/issues/211>`_)
+* Contributors: Christoph Fröhlich
+
+6.1.0 (2025-04-24)
+------------------
+* Remove unused members from PidState.msg (`#178 <https://github.com/ros-controls/control_msgs/issues/178>`_)
+* Contributors: Victor Coutinho Vieira Santos
+
+6.0.0 (2025-03-12)
+------------------
+* Cleanup duplicate entries in the msg definition (`#179 <https://github.com/ros-controls/control_msgs/issues/179>`_)
+* Add documentation to fields (`#173 <https://github.com/ros-controls/control_msgs/issues/173>`_)
+* Contributors: Christoph Fröhlich
+
+5.3.0 (2024-11-18)
+------------------
+* Add Dynamic Interface Group Values message (`#155 <https://github.com/ros-controls/control_msgs/issues/155>`_)
+* Add speed_scaling_factor msg and field in JointTrajectoryControllerState (`#143 <https://github.com/ros-controls/control_msgs/issues/143>`_)
+* Contributors: Felix Exner (fexner), Wiktor Bajor
+
+5.2.0 (2024-06-10)
+------------------
+* Add message for publishing interface values with name and stamp (`#98 <https://github.com/ros-controls/control_msgs/issues/98>`_)
+* Add custom rosdoc2 config (`#132 <https://github.com/ros-controls/control_msgs/issues/132>`_)
+* Contributors: Christoph Fröhlich, Manuel Muth
+
+5.1.0 (2024-04-09)
+------------------
+* Add ParallelGripperCommand (`#99 <https://github.com/ros-controls/control_msgs/issues/99>`_)
+* Specify BSD as BSD-3-Clause (`#114 <https://github.com/ros-controls/control_msgs/issues/114>`_)
+* Contributors: Christoph Fröhlich, Paul Gesel
+
 5.0.0 (2023-04-28)
 ------------------
 * Update JTC state message (`#86 <https://github.com/ros-controls/control_msgs/issues/86>`_)
