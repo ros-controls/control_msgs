@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+6.2.0 (2025-06-06)
+------------------
 * Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_)
 * Refine naming in SteeringControllerStatus (`#211 <https://github.com/ros-controls/control_msgs/issues/211>`_)
 * Contributors: Christoph Fröhlich
