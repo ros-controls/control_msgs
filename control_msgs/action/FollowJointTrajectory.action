@@ -61,4 +61,5 @@ string[] multi_dof_joint_names
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_desired
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_actual
 trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_error
-int32[] multi_dof_indices
+# the currently used point from multi_dof_trajectory.points array
+int32 multi_dof_index
