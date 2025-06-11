@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.3.0 (2025-06-11)
+------------------
+* Add indices to FollowJointTrajectory to store trajectory index being executed (`#67 <https://github.com/ros-controls/control_msgs/issues/67>`_)
+* Contributors: Levi Armstrong
+
 6.2.0 (2025-06-06)
 ------------------
 * Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_)
