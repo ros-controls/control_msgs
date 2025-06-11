@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+6.3.0 (2025-06-11)
+------------------
 * Add indices to FollowJointTrajectory to store trajectory index being executed (`#67 <https://github.com/ros-controls/control_msgs/issues/67>`_)
 * Contributors: Levi Armstrong
 
