@@ -26,8 +26,8 @@ set(msg_files
   msg/DynamicJointState.msg
   msg/GripperCommand.msg
   msg/InterfaceValue.msg
-  msg/IOGripperControllerState.msg
-  msg/IOGripperState.msg
+  msg/GPIOToolControllerState.msg
+  msg/GPIOToolTransition.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
@@ -47,17 +47,17 @@ set(action_files
   action/ParallelGripperCommand.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
-  action/IOGripperCommand.action
+  action/GPIOToolCommand.action
   action/JointTrajectory.action
   action/PointHead.action
-  action/SetIOGripperConfig.action
+  action/SetGPIOToolConfig.action
   action/SingleJointPosition.action
 )
 
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
-  srv/SetIOGripperConfig.srv
+  srv/SetGPIOToolConfig.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
