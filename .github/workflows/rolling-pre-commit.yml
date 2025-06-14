@@ -1,4 +1,4 @@
-name: Pre-Commit
+name: Rolling Pre-Commit
 
 on:
   workflow_dispatch:
@@ -6,12 +6,17 @@ on:
     branches:
       - master
 
+concurrency:
+  # cancel previous runs of the same workflow
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
 jobs:
   pre-commit:
     uses: ros-controls/ros2_control_ci/.github/workflows/reusable-pre-commit.yml@master
     strategy:
       fail-fast: false
       matrix:
-        ROS_DISTRO: [jazzy, rolling]
+        ROS_DISTRO: [kilted, rolling]
     with:
       ros_distro: ${{ matrix.ROS_DISTRO }}

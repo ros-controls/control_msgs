@@ -8,6 +8,10 @@ on:
       - control_msgs/rosdoc2.yaml
       - control_msgs/package.xml
 
+concurrency:
+  # cancel previous runs of the same workflow
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
 
 jobs:
   check:
