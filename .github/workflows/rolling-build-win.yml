@@ -26,4 +26,4 @@ jobs:
     with:
       ros_distro: rolling
       ref_for_scheduled_build: master
-      pixi_dependencies: boost compilers
+      pixi_dependencies: compilers
