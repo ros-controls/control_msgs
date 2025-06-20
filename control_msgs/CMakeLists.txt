@@ -41,6 +41,7 @@ set(action_files
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
+  action/FollowJointWrenchTrajectory.action
   action/PointHead.action
   action/SingleJointPosition.action
 )
