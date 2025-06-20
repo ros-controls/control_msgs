@@ -7,4 +7,4 @@ string[] joint_names
 
 # Array of trajectory points, which describe the joint positions, velocities,
 # accelerations and/or efforts, and end-effector wrenches at each time point.
-acg_control_msgs/JointTrajectoryPoint[] points
+control_msgs/JointWrenchTrajectoryPoint[] points

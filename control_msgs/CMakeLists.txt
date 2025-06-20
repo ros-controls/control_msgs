@@ -23,6 +23,8 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
+  msg/JointWrenchTrajectory.msg
+  msg/JointWrenchTrajectoryPoint.msg
   msg/MecanumDriveControllerState.msg
   msg/MultiDOFCommand.msg
   msg/MultiDOFStateStamped.msg
