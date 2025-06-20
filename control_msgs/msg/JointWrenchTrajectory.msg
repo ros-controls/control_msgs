@@ -6,5 +6,5 @@ std_msgs/Header header
 string[] joint_names
 
 # Array of trajectory points, which describe the joint positions, velocities,
-# accelerations and/or efforts, and end-effector wrenches at each time point.
+# accelerations and/or efforts, and task space wrenches at each time point.
 control_msgs/JointWrenchTrajectoryPoint[] points
