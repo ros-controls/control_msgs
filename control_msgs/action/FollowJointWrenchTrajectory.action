@@ -52,3 +52,5 @@ string[] joint_names
 control_msgs/JointWrenchTrajectoryPoint desired
 control_msgs/JointWrenchTrajectoryPoint actual
 control_msgs/JointWrenchTrajectoryPoint error
+# the currently used point from trajectory.points array
+int32 index
