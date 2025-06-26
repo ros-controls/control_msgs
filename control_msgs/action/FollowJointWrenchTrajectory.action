@@ -44,6 +44,9 @@ int32 TRAJECTORY_ABORTED = -6
 #   and those provided in the goal.
 # - PATH_TOLERANCE_VIOLATED and GOAL_TOLERANCE_VIOLATED: Which joint
 #   violated which tolerance, and by how much.
+# - TRAJECTORY_ABORTED: Indicates that the trajectory was aborted during
+#   execution (e.g., another trajectory was sent for execution, or a
+#   problem occurred).
 string error_string
 
 ---
