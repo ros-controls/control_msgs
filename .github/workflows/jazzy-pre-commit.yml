@@ -5,6 +5,9 @@ on:
   pull_request:
     branches:
       - jazzy
+  push:
+    branches:
+      - jazzy
 
 concurrency:
   # cancel previous runs of the same workflow
