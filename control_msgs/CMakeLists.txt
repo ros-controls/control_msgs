@@ -24,6 +24,9 @@ set(msg_files
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
   msg/MecanumDriveControllerState.msg
+  msg/MotionArgument.msg
+  msg/MotionPrimitive.msg
+  msg/MotionPrimitiveSequence.msg
   msg/MultiDOFCommand.msg
   msg/MultiDOFStateStamped.msg
   msg/PidState.msg
@@ -34,10 +37,11 @@ set(msg_files
 )
 
 set(action_files
-  action/ParallelGripperCommand.action
+  action/ExecuteMotionPrimitiveSequence.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
+  action/ParallelGripperCommand.action
   action/PointHead.action
   action/SingleJointPosition.action
 )
