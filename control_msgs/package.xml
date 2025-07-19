@@ -2,7 +2,7 @@
 <?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
 <package format="3">
   <name>control_msgs</name>
-  <version>6.3.0</version>
+  <version>6.4.0</version>
   <description>
     control_msgs contains base messages and actions useful for
     controlling robots. It provides representations for controller
