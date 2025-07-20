@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_) (`#230 <https://github.com/ros-controls/control_msgs/issues/230>`_)
+* Contributors: Felix Exner
+
 5.4.1 (2025-06-06)
 ------------------
 * Update CMake config (`#212 <https://github.com/ros-controls/control_msgs/issues/212>`_) (`#216 <https://github.com/ros-controls/control_msgs/issues/216>`_)
