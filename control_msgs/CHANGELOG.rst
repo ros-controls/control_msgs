@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.5.0 (2025-07-20)
+------------------
 * Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_) (`#230 <https://github.com/ros-controls/control_msgs/issues/230>`_)
 * Contributors: Felix Exner
 
