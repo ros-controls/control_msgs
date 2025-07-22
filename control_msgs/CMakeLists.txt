@@ -37,6 +37,7 @@ set(msg_files
   msg/SteeringControllerStatus.msg
   msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
+  msg/WrenchFramed.msg
 )
 
 set(action_files
