@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.4.0 (2025-07-19)
+------------------
+* Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_)
+* Add message to control a robot via linear velocity and steering position (`#217 <https://github.com/ros-controls/control_msgs/issues/217>`_)
+* Contributors: Felix Exner, wittenator
+
 6.3.0 (2025-06-11)
 ------------------
 * Add indices to FollowJointTrajectory to store trajectory index being executed (`#67 <https://github.com/ros-controls/control_msgs/issues/67>`_)
