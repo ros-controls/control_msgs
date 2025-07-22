@@ -23,6 +23,8 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
+  msg/JointWrenchTrajectory.msg
+  msg/JointWrenchTrajectoryPoint.msg
   msg/MecanumDriveControllerState.msg
   msg/MotionArgument.msg
   msg/MotionPrimitive.msg
@@ -35,6 +37,7 @@ set(msg_files
   msg/SteeringControllerStatus.msg
   msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
+  msg/WrenchFramed.msg
 )
 
 set(action_files
@@ -42,6 +45,7 @@ set(action_files
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/JointTrajectory.action
+  action/FollowJointWrenchTrajectory.action
   action/ParallelGripperCommand.action
   action/PointHead.action
   action/SingleJointPosition.action
