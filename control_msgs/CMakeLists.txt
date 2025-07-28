@@ -1,14 +1,6 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.10)
 
 project(control_msgs)
-
-# Default to C++14
-if(NOT CMAKE_CXX_STANDARD)
-  set(CMAKE_CXX_STANDARD 14)
-endif()
-if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
-  add_compile_options(-Wall -Wextra -Wpedantic)
-endif()
 
 find_package(action_msgs REQUIRED)
 find_package(ament_cmake REQUIRED)
@@ -33,22 +25,31 @@ set(msg_files
   msg/JointJog.msg
   msg/JointTolerance.msg
   msg/JointTrajectoryControllerState.msg
+  msg/JointWrenchTrajectory.msg
+  msg/JointWrenchTrajectoryPoint.msg
   msg/MecanumDriveControllerState.msg
+  msg/MotionArgument.msg
+  msg/MotionPrimitive.msg
+  msg/MotionPrimitiveSequence.msg
   msg/MultiDOFCommand.msg
   msg/MultiDOFStateStamped.msg
   msg/PidState.msg
   msg/SingleDOFState.msg
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
+  msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
+  msg/WrenchFramed.msg
 )
 
 set(action_files
-  action/ParallelGripperCommand.action
+  action/ExecuteMotionPrimitiveSequence.action
   action/FollowJointTrajectory.action
   action/GripperCommand.action
   action/GPIOToolCommand.action
   action/JointTrajectory.action
+  action/FollowJointWrenchTrajectory.action
+  action/ParallelGripperCommand.action
   action/PointHead.action
   action/SetGPIOToolConfig.action
   action/SingleJointPosition.action

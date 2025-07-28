@@ -12,7 +12,7 @@ on:
       - master
   schedule:
     # Run every morning to detect flakiness and broken dependencies
-    - cron: '28 6 * * *'
+    - cron: '28 6 * * MON-FRI'
 
 concurrency:
   # cancel previous runs of the same workflow, except for pushes on master branch
@@ -25,7 +25,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ROS_DISTRO: [rolling]
+        ROS_DISTRO: [kilted, rolling]
         ROS_REPO: [main, testing]
     with:
       ros_distro: ${{ matrix.ROS_DISTRO }}

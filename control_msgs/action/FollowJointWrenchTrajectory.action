@@ -1,7 +1,5 @@
-# The trajectory for all revolute, continuous or prismatic joints
-trajectory_msgs/JointTrajectory trajectory
-# The trajectory for all planar or floating joints (i.e. individual joints with more than one DOF)
-trajectory_msgs/MultiDOFJointTrajectory multi_dof_trajectory
+# The joint trajectory to follow
+control_msgs/JointWrenchTrajectory trajectory
 
 # Tolerances for the trajectory.  If the measured joint values fall
 # outside the tolerances the trajectory goal is aborted.  Any
@@ -12,8 +10,7 @@ trajectory_msgs/MultiDOFJointTrajectory multi_dof_trajectory
 # Tolerances applied to the joints as the trajectory is executed.  If
 # violated, the goal aborts with error_code set to
 # PATH_TOLERANCE_VIOLATED.
-JointTolerance[] path_tolerance
-JointComponentTolerance[] component_path_tolerance
+control_msgs/JointTolerance[] path_tolerance
 
 # To report success, the joints must be within goal_tolerance of the
 # final trajectory value.  The goal must be achieved by time the
@@ -25,8 +22,7 @@ JointComponentTolerance[] component_path_tolerance
 # If the joints are not within goal_tolerance after "trajectory finish
 # time" + goal_time_tolerance, the goal aborts with error_code set to
 # GOAL_TOLERANCE_VIOLATED
-JointTolerance[] goal_tolerance
-JointComponentTolerance[] component_goal_tolerance
+control_msgs/JointTolerance[] goal_tolerance
 builtin_interfaces/Duration goal_time_tolerance
 
 ---
@@ -37,29 +33,27 @@ int32 INVALID_JOINTS = -2
 int32 OLD_HEADER_TIMESTAMP = -3
 int32 PATH_TOLERANCE_VIOLATED = -4
 int32 GOAL_TOLERANCE_VIOLATED = -5
+int32 TRAJECTORY_ABORTED = -6
 
 # Human readable description of the error code. Contains complementary
 # information that is especially useful when execution fails, for instance:
 # - INVALID_GOAL: The reason for the invalid goal (e.g., the requested
-#   trajectory is in the past).
+#   trajectory requires a command that differ significantly from the
+#   robot's current state).
 # - INVALID_JOINTS: The mismatch between the expected controller joints
 #   and those provided in the goal.
 # - PATH_TOLERANCE_VIOLATED and GOAL_TOLERANCE_VIOLATED: Which joint
 #   violated which tolerance, and by how much.
+# - TRAJECTORY_ABORTED: Indicates that the trajectory was aborted during
+#   execution (e.g., another trajectory was sent for execution, or a
+#   problem occurred).
 string error_string
 
 ---
 std_msgs/Header header
 string[] joint_names
-trajectory_msgs/JointTrajectoryPoint desired
-trajectory_msgs/JointTrajectoryPoint actual
-trajectory_msgs/JointTrajectoryPoint error
+control_msgs/JointWrenchTrajectoryPoint desired
+control_msgs/JointWrenchTrajectoryPoint actual
+control_msgs/JointWrenchTrajectoryPoint error
 # the currently used point from trajectory.points array
 int32 index
-
-string[] multi_dof_joint_names
-trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_desired
-trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_actual
-trajectory_msgs/MultiDOFJointTrajectoryPoint multi_dof_error
-# the currently used point from multi_dof_trajectory.points array
-int32 multi_dof_index

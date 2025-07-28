@@ -15,10 +15,6 @@ float64 p_gain
 float64 i_gain
 # derivative gain
 float64 d_gain
-# upper integral clamp.
-float64 i_max
-# lower integral clamp.
-float64 i_min
 
 # output of the PID controller
 float64 output

@@ -5,6 +5,9 @@ on:
   pull_request:
     branches:
       - master
+  push:
+    branches:
+      - master
 
 concurrency:
   # cancel previous runs of the same workflow
@@ -17,6 +20,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ROS_DISTRO: [rolling]
+        ROS_DISTRO: [kilted, rolling]
     with:
       ros_distro: ${{ matrix.ROS_DISTRO }}
