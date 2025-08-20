@@ -21,7 +21,9 @@ set(msg_files
   msg/EtherCATState.msg
   msg/GenericState.msg
   msg/GripperCommand.msg
+  msg/HardwareDeviceDiagnostics.msg
   msg/HardwareDeviceStatus.msg
+  msg/HardwareDiagnostics.msg
   msg/HardwareStatus.msg
   msg/InterfaceValue.msg
   msg/JointComponentTolerance.msg
