@@ -19,7 +19,7 @@ set(msg_files
   msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
   msg/EtherCATState.msg
-  msg/GenericState.msg
+  msg/GenericHardwareState.msg
   msg/GripperCommand.msg
   msg/HardwareDeviceDiagnostics.msg
   msg/HardwareDeviceStatus.msg
