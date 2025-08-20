@@ -1,4 +1,5 @@
 # This message presents EtherCAT-specific device state information
+# Refer ETG.1000 EtherCAT Specification
 
 # Position of the slave on the bus (0, 1, 2...)
 uint16 slave_position

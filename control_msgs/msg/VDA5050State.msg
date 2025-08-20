@@ -1,5 +1,6 @@
 # This message presents VDA5050-specific vehicle state information
 # For AGVs and AMRs compliant with VDA5050, this provides a snapshot of the vehicle's high-level status
+# Refer Official Specification document for the VDA 5050 - https://github.com/VDA5050/VDA5050
 
 # --- Order and Action Status ---------------------------------------
 # ID of the currently executed order

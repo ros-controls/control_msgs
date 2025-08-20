@@ -1,4 +1,5 @@
 # This message presents CANopen-specific device state information
+# Refer CiA 301 and CiA 402 application layer documentation
 
 # The CANopen node ID of the device (1-127)
 uint8 node_id
