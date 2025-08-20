@@ -11,7 +11,7 @@ string device_id
 # A device will only fill the arrays for the standards it implements, rest will be empty
 
 # Generic hardware status information applicable to any device, it is suggested to fill this for all devices
-GenericState[] generic_hardware_status
+GenericHardwareState[] generic_hardware_status
 
 # CANopen-specific device states (DS-301/DS-402 compliant devices)
 CANopenState[] canopen_states
