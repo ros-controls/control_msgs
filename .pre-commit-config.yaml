@@ -128,7 +128,7 @@ repos:
     rev: v2.4.1
     hooks:
       - id: codespell
-        args: ['--write-changes']
+        args: ['--write-changes', '-L TEACHIN']
         exclude: CHANGELOG\.rst|\.(svg|pyc)$
 
   - repo: https://github.com/python-jsonschema/check-jsonschema
