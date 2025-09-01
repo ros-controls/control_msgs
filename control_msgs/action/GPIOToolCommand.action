@@ -5,6 +5,7 @@
 bool engage # boolean value to indicate if the tool should engaged (true) or disengaged (false). true for open, false for close)
 ---
 bool success  # true for performing the tool command successfully and vice versa
+string resulting_state_name  # name of the resulting state after the action is finished, empty when state cannot be determined
 string message #  informational, e.g. for success or error messages
 ---
 GPIOToolTransition transition  # current transition of the gripper during enagagin/disengaging processes
