@@ -16,10 +16,10 @@ set(msg_files
   msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
-  msg/GripperCommand.msg
-  msg/InterfaceValue.msg
   msg/GPIOToolControllerState.msg
   msg/GPIOToolTransition.msg
+  msg/GripperCommand.msg
+  msg/InterfaceValue.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
