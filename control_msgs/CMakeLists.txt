@@ -14,6 +14,7 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/BatteryStates.msg
   msg/CANopenState.msg
   msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
