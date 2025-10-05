@@ -7,7 +7,7 @@ on:
   pull_request:
     branches:
       - master
-    paths:
+    paths: &paths-filter
       - '**.action'
       - '**.msg'
       - '**.srv'
@@ -17,13 +17,7 @@ on:
   push:
     branches:
       - master
-    paths:
-      - '**.action'
-      - '**.msg'
-      - '**.srv'
-      - '.github/workflows/rolling-build-win.yml'
-      - '**/package.xml'
-      - '**/CMakeLists.txt'
+    paths: *paths-filter
 
 jobs:
   binary-windows:
