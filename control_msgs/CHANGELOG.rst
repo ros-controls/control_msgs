@@ -2,6 +2,13 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.5.0 (2025-08-27)
+------------------
+* Adding new `HardwareStatus` and `HardwareDeviceStatus` messages  (`#240 <https://github.com/ros-controls/control_msgs//issues/240>`_)
+* Let's not lint generated code please (`#238 <https://github.com/ros-controls/control_msgs//issues/238>`_)
+* Feature/joint wrench msgs (`#221 <https://github.com/ros-controls/control_msgs//issues/221>`_)
+* Contributors: Bence Magyar, Davide Risi, Soham Patil
+
 6.4.0 (2025-07-19)
 ------------------
 * Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_)
