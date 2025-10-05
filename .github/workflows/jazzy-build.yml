@@ -7,9 +7,23 @@ on:
   pull_request:
     branches:
       - jazzy
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/jazzy-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
   push:
     branches:
       - jazzy
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/jazzy-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
   schedule:
     # Run every morning to detect flakiness and broken dependencies
     - cron: '28 6 * * MON-FRI'

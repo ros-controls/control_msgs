@@ -7,9 +7,23 @@ on:
   pull_request:
     branches:
       - master
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/rolling-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
   push:
     branches:
       - master
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/rolling-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
   schedule:
     # Run every morning to detect flakiness and broken dependencies
     - cron: '28 6 * * MON-FRI'
