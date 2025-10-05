@@ -4,20 +4,17 @@ name: Rolling Windows Binary Build
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_request: &event
     branches:
       - master
-    paths: &paths-filter
+    paths:
       - '**.action'
       - '**.msg'
       - '**.srv'
       - '.github/workflows/rolling-build-win.yml'
       - '**/package.xml'
       - '**/CMakeLists.txt'
-  push:
-    branches:
-      - master
-    paths: *paths-filter
+  push: *event
 
 jobs:
   binary-windows:

@@ -4,20 +4,17 @@ name: Rolling Binary Build
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_request: &event
     branches:
       - master
-    paths: &paths-filter
+    paths:
       - '**.action'
       - '**.msg'
       - '**.srv'
       - '.github/workflows/rolling-build.yml'
       - '**/package.xml'
       - '**/CMakeLists.txt'
-  push:
-    branches:
-      - master
-    paths: *paths-filter
+  push: *event
   schedule:
     # Run every morning to detect flakiness and broken dependencies
     - cron: '28 6 * * MON-FRI'
