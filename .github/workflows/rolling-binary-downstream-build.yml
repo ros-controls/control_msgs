@@ -7,6 +7,15 @@ on:
   pull_request:
     branches:
       - master
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/rolling-binary-downstream-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
+      - 'ros_controls.kilted.repos'
+      - 'ros_controls.rolling.repos'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
