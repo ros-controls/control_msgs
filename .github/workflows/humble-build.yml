@@ -4,12 +4,17 @@ name: Humble Binary Build
 
 on:
   workflow_dispatch:
-  pull_request:
+  pull_request: &event
     branches:
       - humble
-  push:
-    branches:
-      - humble
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/humble-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
+  push: *event
   schedule:
     # Run every morning to detect flakiness and broken dependencies
     - cron: '28 6 * * MON-FRI'

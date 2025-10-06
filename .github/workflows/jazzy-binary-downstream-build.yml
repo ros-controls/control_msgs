@@ -7,6 +7,14 @@ on:
   pull_request:
     branches:
       - jazzy
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/jazzy-binary-downstream-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
+      - 'ros_controls.jazzy.repos'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
