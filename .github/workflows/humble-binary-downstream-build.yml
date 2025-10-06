@@ -7,6 +7,14 @@ on:
   pull_request:
     branches:
       - humble
+    paths:
+      - '**.action'
+      - '**.msg'
+      - '**.srv'
+      - '.github/workflows/humble-binary-downstream-build.yml'
+      - '**/package.xml'
+      - '**/CMakeLists.txt'
+      - 'ros_controls.humble.repos'
 
 concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
