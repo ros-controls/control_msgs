@@ -45,6 +45,7 @@ set(msg_files
   msg/SteeringControllerStatus.msg
   msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
+  msg/VDA5050SafetyState.msg
   msg/VDA5050State.msg
   msg/WrenchFramed.msg
 )
