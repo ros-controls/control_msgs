@@ -26,6 +26,8 @@ set(msg_files
   msg/HardwareDiagnostics.msg
   msg/HardwareStatus.msg
   msg/InterfaceValue.msg
+  msg/InterfacesNames.msg
+  msg/InterfacesValues.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
@@ -45,8 +47,6 @@ set(msg_files
   msg/SteeringControllerStatus.msg
   msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
-  msg/StringArray.msg
-  msg/ValuesArray.msg
   msg/VDA5050State.msg
   msg/WrenchFramed.msg
 )
