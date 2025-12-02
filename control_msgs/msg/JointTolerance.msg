@@ -13,3 +13,4 @@ string name
 float64 position  # in radians or meters (for a revolute or prismatic joint, respectively)
 float64 velocity  # in rad/sec or m/sec
 float64 acceleration  # in rad/sec^2 or m/sec^2
+float64 effort # in N*m or N
