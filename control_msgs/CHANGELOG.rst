@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+6.6.0 (2025-12-09)
+------------------
 * Add Keys and Float64Values messages (`#273 <https://github.com/ros-controls/control_msgs/issues/273>`_)
 * Contributors: Sai Kishor Kothakota
 
