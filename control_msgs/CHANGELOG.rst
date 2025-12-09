@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add Keys and Float64Values messages (`#273 <https://github.com/ros-controls/control_msgs/issues/273>`_)
+* Contributors: Sai Kishor Kothakota
+
 6.5.0 (2025-08-27)
 ------------------
 * Adding new `HardwareStatus` and `HardwareDeviceStatus` messages  (`#240 <https://github.com/ros-controls/control_msgs//issues/240>`_)
