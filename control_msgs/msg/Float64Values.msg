@@ -9,5 +9,5 @@ std_msgs/Header header
 # and the second value (0.0) corresponds to "joint2/velocity"
 #
 # This message is used by the interfaces_state_broadcaster to publish the values of the interfaces via
-# ROS2 topics ~/names (Keys.msg) and ~/values (InterfacesValues.msg)
+# ROS 2 topics ~/names (Keys.msg) and ~/values (InterfacesValues.msg)
 float64[] values
