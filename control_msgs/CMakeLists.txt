@@ -26,6 +26,8 @@ set(msg_files
   msg/HardwareDiagnostics.msg
   msg/HardwareStatus.msg
   msg/InterfaceValue.msg
+  msg/Keys.msg
+  msg/Float64Values.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
