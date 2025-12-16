@@ -2,6 +2,12 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add Keys and Float64Values messages (`#273 <https://github.com/ros-controls/control_msgs/issues/273>`_) (`#281 <https://github.com/ros-controls/control_msgs/issues/281>`_)
+* Let's not lint generated code please (`#238 <https://github.com/ros-controls/control_msgs/issues/238>`_) (`#239 <https://github.com/ros-controls/control_msgs/issues/239>`_)
+* Contributors: mergify[bot]
+
 5.5.0 (2025-07-20)
 ------------------
 * Add messages for motion primitives (`#228 <https://github.com/ros-controls/control_msgs/issues/228>`_) (`#230 <https://github.com/ros-controls/control_msgs/issues/230>`_)
