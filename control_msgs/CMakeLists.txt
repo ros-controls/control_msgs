@@ -13,6 +13,11 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+<<<<<<< HEAD
+=======
+  msg/BatteryStateArray.msg
+  msg/CANopenState.msg
+>>>>>>> 20d59df (add BatteryStates msg (#250))
   msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
   msg/DynamicJointState.msg
