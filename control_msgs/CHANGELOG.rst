@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.7.0 (2025-12-31)
+------------------
 * add BatteryStates msg (backport `#250 <https://github.com/ros-controls/control_msgs/issues/250>`_) (`#283 <https://github.com/ros-controls/control_msgs/issues/283>`_)
 * Add vda5050 safety state msg (backport `#266 <https://github.com/ros-controls/control_msgs/issues/266>`_) (`#282 <https://github.com/ros-controls/control_msgs/issues/282>`_)
 * Contributors: mergify[bot]
