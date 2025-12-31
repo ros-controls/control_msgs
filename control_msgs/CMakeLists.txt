@@ -36,12 +36,8 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
-<<<<<<< HEAD
-=======
   msg/VDA5050SafetyState.msg
   msg/VDA5050State.msg
-  msg/WrenchFramed.msg
->>>>>>> 6cd40a5 (Add vda5050 safety state msg (#266))
 )
 
 set(action_files
