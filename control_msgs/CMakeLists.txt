@@ -41,6 +41,7 @@ set(msg_files
   msg/SingleDOFStateStamped.msg
   msg/SteeringControllerStatus.msg
   msg/SpeedScalingFactor.msg
+  msg/VDA5050SafetyState.msg
 )
 
 set(action_files
