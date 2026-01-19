@@ -67,6 +67,7 @@ set(action_files
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetOdometry.srv
 )
 
 rosidl_generate_interfaces(${PROJECT_NAME}
