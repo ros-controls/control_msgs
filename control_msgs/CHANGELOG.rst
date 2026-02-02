@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* set odometry interface for the new service (`#287 <https://github.com/ros-controls/control_msgs/issues/287>`_) (`#288 <https://github.com/ros-controls/control_msgs/issues/288>`_)
+* Contributors: mergify[bot]
+
 5.7.0 (2025-12-31)
 ------------------
 * add BatteryStates msg (backport `#250 <https://github.com/ros-controls/control_msgs/issues/250>`_) (`#283 <https://github.com/ros-controls/control_msgs/issues/283>`_)
