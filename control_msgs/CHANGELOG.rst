@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.8.0 (2026-02-02)
+------------------
 * set odometry interface for the new service (`#287 <https://github.com/ros-controls/control_msgs/issues/287>`_) (`#288 <https://github.com/ros-controls/control_msgs/issues/288>`_)
 * Contributors: mergify[bot]
 
