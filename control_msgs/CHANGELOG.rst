@@ -2,6 +2,22 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.8.0 (2026-02-02)
+------------------
+* set odometry interface for the new service (`#287 <https://github.com/ros-controls/control_msgs/issues/287>`_)
+* Contributors: Ege Kural
+
+6.7.0 (2025-12-31)
+------------------
+* add BatteryStates msg (`#250 <https://github.com/ros-controls/control_msgs/issues/250>`_)
+* Add vda5050 safety state msg (`#266 <https://github.com/ros-controls/control_msgs/issues/266>`_)
+* Contributors: Yara Shahin
+
+6.6.0 (2025-12-09)
+------------------
+* Add Keys and Float64Values messages (`#273 <https://github.com/ros-controls/control_msgs/issues/273>`_)
+* Contributors: Sai Kishor Kothakota
+
 6.5.0 (2025-08-27)
 ------------------
 * Adding new `HardwareStatus` and `HardwareDeviceStatus` messages  (`#240 <https://github.com/ros-controls/control_msgs//issues/240>`_)

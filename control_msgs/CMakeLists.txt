@@ -14,6 +14,7 @@ find_package(trajectory_msgs REQUIRED)
 
 set(msg_files
   msg/AdmittanceControllerState.msg
+  msg/BatteryStateArray.msg
   msg/CANopenState.msg
   msg/DynamicInterfaceGroupValues.msg
   msg/DynamicInterfaceValues.msg
@@ -28,6 +29,8 @@ set(msg_files
   msg/HardwareDiagnostics.msg
   msg/HardwareStatus.msg
   msg/InterfaceValue.msg
+  msg/Keys.msg
+  msg/Float64Values.msg
   msg/JointComponentTolerance.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
@@ -47,6 +50,7 @@ set(msg_files
   msg/SteeringControllerStatus.msg
   msg/SteeringControllerCommand.msg
   msg/SpeedScalingFactor.msg
+  msg/VDA5050SafetyState.msg
   msg/VDA5050State.msg
   msg/WrenchFramed.msg
 )
@@ -67,6 +71,7 @@ set(action_files
 set(srv_files
   srv/QueryCalibrationState.srv
   srv/QueryTrajectoryState.srv
+  srv/SetOdometry.srv
   srv/SetGPIOToolConfig.srv
 )
 
