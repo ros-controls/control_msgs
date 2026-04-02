@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.9.0 (2026-04-02)
+------------------
 * Remove linters  dependencies (`#298 <https://github.com/ros-controls/control_msgs/issues/298>`_) (`#300 <https://github.com/ros-controls/control_msgs/issues/300>`_)
 * Contributors: mergify[bot]
 
