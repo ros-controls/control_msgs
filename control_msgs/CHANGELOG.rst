@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+6.9.0 (2026-04-02)
+------------------
+* Remove linters  dependencies (`#298 <https://github.com/ros-controls/control_msgs/issues/298>`_)
+* Contributors: Christoph Fröhlich
+
 6.8.0 (2026-02-02)
 ------------------
 * set odometry interface for the new service (`#287 <https://github.com/ros-controls/control_msgs/issues/287>`_)
