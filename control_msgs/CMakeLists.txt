@@ -22,6 +22,7 @@ set(msg_files
   msg/Keys.msg
   msg/Float64Values.msg
   msg/JointComponentTolerance.msg
+  msg/JointCommand.msg
   msg/JointControllerState.msg
   msg/JointJog.msg
   msg/JointTolerance.msg
