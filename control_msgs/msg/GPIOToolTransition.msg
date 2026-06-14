@@ -2,15 +2,15 @@
 
 # The tool is in an idle state, not performing any action.
 uint8 IDLE=0
-# The tool is setting command interfaces to be able to perform state changes (disengaged or engaged), e.g., disabling breaks.
+# The tool is setting command interfaces to be able to perform state changes (disengaged or engaged), e.g., disabling brakes.
 uint8 SET_BEFORE_COMMAND=1
 # (optional) Check if before command is set correctly and confirmed by the sensors.
 uint8 CHECK_BEFORE_COMMAND=2
 # Set command to tool's command interfaces.
 uint8 SET_COMMAND=11
-# The controller is checking its current tool's state on state interfaces is set.
+# The controller is checking that the tool state on the state interfaces is set correctly.
 uint8 CHECK_COMMAND=12
-# The tool is setting "after" commands when ostate changes (disengaged or engaged) is finished, e.g., engaging breaks.
+# The tool is setting "after" commands when state changes (disengaged or engaged) are finished, e.g., engaging brakes.
 uint8 SET_AFTER_COMMAND=21
 # (optional) Check if after command is set correctly and confirmed by the sensors.
 uint8 CHECK_AFTER_COMMAND=22
