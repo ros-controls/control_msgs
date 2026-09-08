@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add JointCommand.msg as semantic alternative to Float64MultiArray (`#304 <https://github.com/ros-controls/control_msgs/issues/304>`_) (`#329 <https://github.com/ros-controls/control_msgs/issues/329>`_)
+* Contributors: mergify[bot]
+
 5.9.0 (2026-04-02)
 ------------------
 * Remove linters  dependencies (`#298 <https://github.com/ros-controls/control_msgs/issues/298>`_) (`#300 <https://github.com/ros-controls/control_msgs/issues/300>`_)
