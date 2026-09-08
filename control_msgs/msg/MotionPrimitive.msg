@@ -10,7 +10,7 @@ int8 CIRCULAR_CARTESIAN=51 # Often referred as CIRC
 # MOTION_SEQUENCE_START = 100
 # MOTION_SEQUENCE_END = 101
 
-# Types 110 to 254 are reserved for vendor specific motion primitives. 
+# Types 110 to 127 are reserved for vendor specific motion primitives. 
 # The moprim forward controller will do no checks on these. 
 # Verification must be done by the receiving hardware interface
 
