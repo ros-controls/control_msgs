@@ -4,7 +4,9 @@ MotionPrimitiveSequence trajectory
 ---
 int32 SUCCESSFUL = 0
 int32 INVALID_GOAL = -1
+int32 MOTION_EXECUTION_FAILED = -2
 int32 OLD_HEADER_TIMESTAMP = -3
+int32 ABORTED_BY_DEACTIVATION = -4
 
 int32 error_code
 string error_string
