@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* ExecuteMotionPrimitiveSequence action, add constants (backport `#331 <https://github.com/ros-controls/control_msgs/issues/331>`_) (`#337 <https://github.com/ros-controls/control_msgs/issues/337>`_)
+* Contributors: mergify[bot]
+
 5.10.0 (2026-09-08)
 -------------------
 * Add JointCommand.msg as semantic alternative to Float64MultiArray (`#304 <https://github.com/ros-controls/control_msgs/issues/304>`_) (`#329 <https://github.com/ros-controls/control_msgs/issues/329>`_)
