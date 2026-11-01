@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+6.11.0 (2026-11-01)
+-------------------
 * Add 2 constants to be used for aborting actions (`#331 <https://github.com/ros-controls/control_msgs/issues/331>`_)
 * Contributors: URJala
 
