@@ -2,6 +2,11 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+Forthcoming
+-----------
+* Add 2 constants to be used for aborting actions (`#331 <https://github.com/ros-controls/control_msgs/issues/331>`_)
+* Contributors: URJala
+
 6.10.0 (2026-07-01)
 -------------------
 * Add JointCommand.msg as semantic alternative to Float64MultiArray (`#304 <https://github.com/ros-controls/control_msgs/issues/304>`_)
