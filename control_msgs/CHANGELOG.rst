@@ -2,8 +2,8 @@
 Changelog for package control_msgs
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+5.11.0 (2026-11-01)
+-------------------
 * ExecuteMotionPrimitiveSequence action, add constants (backport `#331 <https://github.com/ros-controls/control_msgs/issues/331>`_) (`#337 <https://github.com/ros-controls/control_msgs/issues/337>`_)
 * Contributors: mergify[bot]
 
