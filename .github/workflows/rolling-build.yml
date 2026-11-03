@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ROS_DISTRO: [kilted, lyrical, rolling]
+        ROS_DISTRO: [lyrical, rolling]
         ROS_REPO: [main, testing]
         exclude:
           - ROS_DISTRO: rolling
