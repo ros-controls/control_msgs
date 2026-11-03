@@ -14,7 +14,6 @@ on:
       - '.github/workflows/rolling-binary-downstream-build.yml'
       - '**/package.xml'
       - '**/CMakeLists.txt'
-      - 'ros_controls.kilted.repos'
       - 'ros_controls.rolling.repos'
 
 concurrency:
@@ -27,7 +26,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        ROS_DISTRO: [kilted, lyrical, rolling]
+        ROS_DISTRO: [lyrical, rolling]
     with:
       ros_distro: ${{ matrix.ROS_DISTRO }}
       ros_repo: testing
