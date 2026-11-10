@@ -4,6 +4,16 @@ int8 LINEAR_CARTESIAN=50 # Often referred as LIN
 int8 CIRCULAR_CARTESIAN=51 # Often referred as CIRC
 # potentially more, such as spline motion
 
+# Reserved for helper types
+# STOP_MOTION = 66
+# RESET_STOP = 67
+# MOTION_SEQUENCE_START = 100
+# MOTION_SEQUENCE_END = 101
+
+# Types 110 to 127 are reserved for vendor specific motion primitives. 
+# The moprim forward controller will do no checks on these. 
+# Verification must be done by the receiving hardware interface
+
 int8 type -1 # one of the above
 
 float64 blend_radius
