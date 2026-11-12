@@ -29,6 +29,12 @@ JointTolerance[] goal_tolerance
 JointComponentTolerance[] component_goal_tolerance
 builtin_interfaces/Duration goal_time_tolerance
 
+# Priority of this goal, used by action servers to decide whether a new goal
+# may preempt the currently active one. Higher values mean higher priority.
+# Servers that support it typically preempt the active goal when the new goal
+# has an equal or higher priority, and reject the new goal otherwise.
+uint8 priority 0
+
 ---
 int32 error_code
 int32 SUCCESSFUL = 0
